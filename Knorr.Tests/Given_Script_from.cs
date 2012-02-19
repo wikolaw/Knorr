@@ -5,6 +5,7 @@ using NUnit.Framework;
 
 namespace Knorr.Tests.Given_Script_From
 {
+    //hej
     public abstract class Given_Script_From
     {
         protected Script _script;
