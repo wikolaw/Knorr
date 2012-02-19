@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>9053</QvBuildNo>
+   <CreatorDoc>C:\Users\Wiko\Documents\visual studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\1_Extract\Extract SalesData.qvw</CreatorDoc>
+   <CreateUtcTime>2012-02-19 18:38:24</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>tblSuppliers</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>pkeySupplierID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>145</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strCompanyName</FieldName>
+       <BitOffset>20</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>145</Offset>
+       <Length>628</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strContactName</FieldName>
+       <BitOffset>25</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>773</Offset>
+       <Length>445</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strContactTitle</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>15</NoOfSymbols>
+       <Offset>1218</Offset>
+       <Length>309</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strAddress</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>1527</Offset>
+       <Length>661</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strCity</FieldName>
+       <BitOffset>37</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>2188</Offset>
+       <Length>283</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strRegion</FieldName>
+       <BitOffset>12</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>2471</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strPostalCode</FieldName>
+       <BitOffset>42</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>2521</Offset>
+       <Length>297</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strCountry</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>16</NoOfSymbols>
+       <Offset>2818</Offset>
+       <Length>132</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strPhone</FieldName>
+       <BitOffset>47</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>2950</Offset>
+       <Length>428</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strFax</FieldName>
+       <BitOffset>52</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>13</NoOfSymbols>
+       <Offset>3378</Offset>
+       <Length>194</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>7</RecordByteSize>
+   <NoOfRecords>29</NoOfRecords>
+   <Offset>3572</Offset>
+   <Length>203</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCategories</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCustomers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblDragListBox</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblEmployees</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrdLineDetail</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrderDetails</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrders</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblProducts</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblShippers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblSuppliers</Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+                         	   
+                                                            Exotic Liquids New Orleans Cajun Delights Grandma Kelly's Homestead Tokyo Traders Cooperativa de Quesos 'Las Cabras' Mayumi's Pavlova, Ltd. Specialty Biscuits, Ltd. PB Kn√§ckebr√∂d AB Refrescos Americanas LTDA Heli S√º√üwaren GmbH & Co. KG Plusspar Lebensmittelgro√üm√§rkte AG Nord-Ost-Fisch Handelsgesellschaft mbH Formaggi Fortini s.r.l. Norske Meierier Bigfoot Breweries Svensk Sj√∂f√∂da AB Aux joyeux eccl√©siastiques New England Seafood Cannery Leka Trading Lyngbysild Zaanse Snoepfabriek Karkki Oy G'day, Mate Ma Maison Pasta Buttini s.r.l. Escargots Nouveaux Gai p√¢turage For√™ts d'√©rables Charlotte Cooper Shelley Burke Regina Murphy Yoshi Nagase Antonio del Valle Saavedra Mayumi Ohno Ian Devling Peter Wilson Lars Peterson Carlos Diaz Petra Winkler Martin Bein Sven Petersen Elio Rossi Beate Vileid Cheryl Saylor Michael Bj√∂rn Guyl√®ne Nodier Robb Merchant Chandra Leka Niels Petersen Dirk Luchte Anne Heikkonen Wendy Mackenzie Jean-Guy Lauzon Giovanni Giudici Marie Delamare Eliane Noz Chantal Goulet Purchasing Manager Order Administrator Sales Representative Marketing Manager Export Administrator Marketing Representative Sales Agent Sales Manager International Marketing Mgr. Coordinator Foreign Markets Regional Account Rep. Wholesale Account Agent Owner Accounting Manager Product Manager 49 Gilbert St. P.O. Box 78934 707 Oxford Rd. 9-8 Sekimai
+Musashino-shi Calle del Rosal 4 92 Setsuko
+Chuo-ku 74 Rose St.
+Moonie Ponds 29 King's Way Kaloadagatan 13 Av. das Americanas 12.890 Tiergartenstra√üe 5 Bogenallee 51 Frahmredder 112a Viale Dante, 75 Hatlevegen 5 3400 - 8th Avenue
+Suite 210 Brovallav√§gen 231 203, Rue des Francs-Bourgeois Order Processing Dept.
+2100 Paul Revere Blvd. 471 Serangoon Loop, Suite #402 Lyngbysild
+Fiskebakken 10 Verkoop
+Rijnweg 22 Valtakatu 12 170 Prince Edward Parade
+Hunter's Hill 2960 Rue St. Laurent Via dei Gelsomini, 153 22, rue H. Voiron Bat. B
+3, rue des Alpes 148 rue Chasseur London New Orleans Ann Arbor Tokyo Oviedo Osaka Melbourne Manchester G√∂teborg S√£o Paulo Berlin Frankfurt Cuxhaven Ravenna Sandvika Bend Stockholm Paris Boston Singapore Lyngby Zaandam Lappeenranta Sydney Montr√©al Salerno Montceau Annecy Ste-Hyacinthe LA MI Asturias Victoria OR MA NSW Qu√©bec EC1 4SD Â 70117 Ëª  48104 d   100 ÔÄ  33007 !  545 Ú  3058 M14 GSD S-345 67 B  5442 !*  10785 Ï  60439 Vk  27478 ‰ª  48100 (  1320 M{ 97101 S-123 45 ¸$ 75004 V  02134    0512 
+  2800 9999 ZZ Äœ  53120 ˙  2042 H1J 1C3 ÑH 84100 Ñ 71300 ! 74000 J2S 7S8 UK USA Japan Spain Australia Sweden Brazil Germany Italy Norway France Singapore Denmark Netherlands Finland Canada (171) 555-2222 (100) 555-4822 (313) 555-5735 (03) 3555-5011 (98) 598 76 54 (06) 431-7877 (03) 444-2343 (161) 555-4448 031-987 65 43 (11) 555 4640 (010) 9984510 (069) 992755 (04721) 8713 (0544) 60323 (0)2-953010 (503) 555-9931 08-123 45 67 (1) 03.83.00.68 (617) 555-3267 555-8787 ù43844108 (12345) 1212 (953) 10956 (02) 555-5914 (514) 555-9022 (089) 6547665 85.57.00.07 38.76.98.06 (514) 555-2955 (313) 555-3349 (03) 444-6588 031-987 65 91 (04721) 8714 (0544) 60603 (1) 03.83.00.62 (617) 555-3389 ù43844115 (12345) 1210 (02) 555-4873 (089) 6547667 38.76.98.58 (514) 555-2921        !!Ñ 2!B!2cåDCÑR
+•îSd∆3pÁúÖ!D	ñ)•
+ßJ)∑k≠	«å1Vÿ≠µfÈŒ9jÒÔΩ!B#1∆x{!%RJâ;'sŒ	L)îRö]+µ÷™n-÷ZÇt/˜ﬁªìè1cò39ÁÃ™5Zk∫7{Ô›ùœ9úsÓ

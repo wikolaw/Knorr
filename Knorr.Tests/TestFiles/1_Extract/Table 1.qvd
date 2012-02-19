@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>9053</QvBuildNo>
+   <CreatorDoc>C:\Users\Wiko\Documents\visual studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\1_Extract\Extract SalesData.qvw</CreatorDoc>
+   <CreateUtcTime>2012-02-19 18:38:24</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Table 1</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>ID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou> </Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Field1</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou> </Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>5</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>1</RecordByteSize>
+   <NoOfRecords>1</NoOfRecords>
+   <Offset>10</Offset>
+   <Length>1</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM `Table 1`</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCategories</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCustomers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblDragListBox</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblEmployees</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrdLineDetail</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrderDetails</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrders</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblProducts</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblShippers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblSuppliers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblTopics</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblType</Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+    {    

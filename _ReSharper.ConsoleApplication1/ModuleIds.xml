@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="68D50DA1-6484-48CC-A4EF-067D5B2CF01B" ModuleId="ConsoleApplication1" />
+  <Module PersistentId="ADB806E5-4F5D-4C84-9081-6BAF8D50536D" ModuleId="Knorr.Tests" />
+  <Module PersistentId="6DAE6F4D-EE50-47FE-8C71-63DBDAC4B0DB" ModuleId="Knorr.Core" />
+</Modules>

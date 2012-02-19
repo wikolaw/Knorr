@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>9053</QvBuildNo>
+   <CreatorDoc>C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\2_Transform\Transform SalesData.qvw</CreatorDoc>
+   <CreateUtcTime>2012-02-19 12:06:25</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>Order</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>%OrderID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>Â </Thou>
+       </NumberFormat>
+       <NoOfSymbols>829</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>4145</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$key</String>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.fkeyCustomerID</FieldName>
+       <BitOffset>15</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>89</NoOfSymbols>
+       <Offset>4145</Offset>
+       <Length>623</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.fkeyEmployeeID</FieldName>
+       <BitOffset>73</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>Â </Thou>
+       </NumberFormat>
+       <NoOfSymbols>9</NoOfSymbols>
+       <Offset>4768</Offset>
+       <Length>45</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.dtmOrderDate</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>480</NoOfSymbols>
+       <Offset>4813</Offset>
+       <Length>2400</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.dtmRequiredDate</FieldName>
+       <BitOffset>55</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>454</NoOfSymbols>
+       <Offset>7213</Offset>
+       <Length>2270</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.dtmShippedDate</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>9</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>DATE</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>387</NoOfSymbols>
+       <Offset>9483</Offset>
+       <Length>1935</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+         <String>$timestamp</String>
+         <String>$date</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.fkeyShipVia</FieldName>
+       <BitOffset>102</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>Â </Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>11418</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.curFreight</FieldName>
+       <BitOffset>22</BitOffset>
+       <BitWidth>10</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>.</Thou>
+       </NumberFormat>
+       <NoOfSymbols>798</NoOfSymbols>
+       <Offset>11433</Offset>
+       <Length>7158</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.strShipName</FieldName>
+       <BitOffset>41</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>89</NoOfSymbols>
+       <Offset>18591</Offset>
+       <Length>1866</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.strShipAddress</FieldName>
+       <BitOffset>48</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>90</NoOfSymbols>
+       <Offset>20457</Offset>
+       <Length>1881</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.strShipCity</FieldName>
+       <BitOffset>88</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>70</NoOfSymbols>
+       <Offset>22338</Offset>
+       <Length>705</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.strShipRegion</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>23043</Offset>
+       <Length>117</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.strShipPostalCode</FieldName>
+       <BitOffset>95</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>84</NoOfSymbols>
+       <Offset>23160</Offset>
+       <Length>877</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$numeric</String>
+         <String>$integer</String>
+       </Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>Order.strShipCountry</FieldName>
+       <BitOffset>80</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>21</NoOfSymbols>
+       <Offset>24037</Offset>
+       <Length>178</Length>
+       <Comment></Comment>
+       <Tags>
+         <String>$ascii</String>
+         <String>$text</String>
+       </Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>13</RecordByteSize>
+   <NoOfRecords>829</NoOfRecords>
+   <Offset>24215</Offset>
+   <Length>10777</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\1_Extract\tblOrders.qvd</Discriminator>
+       <Statement></Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ (  	(  
+(  (  (  (  (  (  (  (  (  (  (  (  (  (  (  (  (  (  (  (  (  (   (  !(  "(  #(  $(  %(  &(  '(  ((  )(  *(  +(  ,(  -(  .(  /(  0(  1(  2(  3(  4(  5(  6(  7(  8(  9(  :(  ;(  <(  =(  >(  ?(  @(  A(  B(  C(  D(  E(  F(  G(  H(  I(  J(  K(  L(  M(  N(  O(  P(  Q(  R(  S(  T(  U(  V(  W(  X(  Y(  Z(  [(  \(  ](  ^(  _(  `(  a(  b(  c(  d(  e(  f(  g(  h(  i(  j(  k(  l(  m(  n(  o(  p(  q(  r(  s(  t(  u(  v(  w(  x(  y(  z(  {(  |(  }(  ~(  (  €(  (  ‚(  ƒ(  „(  …(  †(  ‡(  ˆ(  ‰(  Š(  ‹(  Œ(  (  (  (  (  ‘(  ’(  “(  ”(  •(  –(  —(  ˜(  ™(  š(  ›(  œ(  (  (  Ÿ(   (  ¡(  ¢(  £(  ¤(  ¥(  ¦(  §(  ¨(  ©(  ª(  «(  ¬(  ­(  ®(  ¯(  °(  ±(  ²(  ³(  ´(  µ(  ¶(  ·(  ¸(  ¹(  º(  »(  ¼(  ½(  ¾(  ¿(  À(  Á(  Â(  Ã(  Ä(  Å(  Æ(  Ç(  È(  É(  Ê(  Ë(  Ì(  Í(  Î(  Ï(  Ğ(  Ñ(  Ò(  Ó(  Ô(  Õ(  Ö(  ×(  Ø(  Ù(  Ú(  Û(  Ü(  İ(  Ş(  ß(  à(  á(  â(  ã(  ä(  å(  æ(  ç(  è(  é(  ê(  ë(  ì(  í(  î(  ï(  ğ(  ñ(  ò(  ó(  ô(  õ(  ö(  ÷(  ø(  ù(  ú(  û(  ü(  ı(  ş(  ÿ(   )  )  )  )  )  )  )  )  )  	)  
+)  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )  )   )  !)  ")  #)  $)  %)  &)  ')  ()  ))  *)  +)  ,)  -)  .)  /)  0)  1)  2)  3)  4)  5)  6)  7)  8)  9)  :)  ;)  <)  =)  >)  ?)  @)  A)  B)  C)  D)  E)  F)  G)  H)  I)  J)  K)  L)  M)  N)  O)  P)  Q)  R)  S)  T)  U)  V)  W)  X)  Y)  Z)  [)  \)  ])  ^)  _)  `)  a)  b)  c)  d)  e)  f)  g)  h)  i)  j)  k)  l)  m)  n)  o)  p)  q)  r)  s)  t)  u)  v)  w)  x)  y)  z)  {)  |)  })  ~)  )  €)  )  ‚)  ƒ)  „)  …)  †)  ‡)  ˆ)  ‰)  Š)  ‹)  Œ)  )  )  )  )  ‘)  ’)  “)  ”)  •)  –)  —)  ˜)  ™)  š)  ›)  œ)  )  )  Ÿ)   )  ¡)  ¢)  £)  ¤)  ¥)  ¦)  §)  ¨)  ©)  ª)  «)  ¬)  ­)  ®)  ¯)  °)  ±)  ²)  ³)  ´)  µ)  ¶)  ·)  ¸)  ¹)  º)  »)  ¼)  ½)  ¾)  ¿)  À)  Á)  Â)  Ã)  Ä)  Å)  Æ)  Ç)  È)  É)  Ê)  Ë)  Ì)  Í)  Î)  Ï)  Ğ)  Ñ)  Ò)  Ó)  Ô)  Õ)  Ö)  ×)  Ø)  Ù)  Ú)  Û)  Ü)  İ)  Ş)  ß)  à)  á)  â)  ã)  ä)  å)  æ)  ç)  è)  é)  ê)  ë)  ì)  í)  î)  ï)  ğ)  ñ)  ò)  ó)  ô)  õ)  ö)  ÷)  ø)  ù)  ú)  û)  ü)  ı)  ş)  ÿ)   *  *  *  *  *  *  *  *  *  	*  
+*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *   *  !*  "*  #*  $*  %*  &*  '*  (*  )*  **  +*  ,*  -*  .*  /*  0*  1*  2*  3*  4*  5*  6*  7*  8*  9*  :*  ;*  <*  =*  >*  ?*  @*  A*  B*  C*  D*  E*  F*  G*  H*  I*  J*  K*  L*  M*  N*  O*  P*  Q*  R*  T*  U*  V*  W*  X*  Y*  Z*  [*  \*  ]*  ^*  _*  `*  a*  b*  c*  d*  e*  f*  g*  h*  i*  j*  k*  l*  m*  n*  o*  p*  q*  r*  s*  t*  u*  v*  w*  x*  y*  z*  {*  |*  }*  ~*  *  €*  *  ‚*  ƒ*  „*  …*  †*  ‡*  ˆ*  ‰*  Š*  ‹*  Œ*  *  *  *  *  ‘*  ’*  “*  ”*  •*  –*  —*  ˜*  ™*  š*  ›*  œ*  *  *  Ÿ*   *  ¡*  ¢*  £*  ¤*  ¥*  ¦*  §*  ¨*  ©*  ª*  «*  ¬*  ­*  ®*  ¯*  °*  ±*  ²*  ³*  ´*  µ*  ¶*  ·*  ¸*  ¹*  º*  »*  ¼*  ½*  ¾*  ¿*  À*  Á*  Â*  Ã*  Ä*  Å*  Æ*  Ç*  È*  É*  Ê*  Ë*  Ì*  Í*  Î*  Ï*  Ğ*  Ñ*  Ò*  Ó*  Ô*  Õ*  Ö*  ×*  Ø*  Ù*  Ú*  Û*  Ü*  İ*  Ş*  ß*  à*  á*  â*  ã*  ä*  å*  æ*  ç*  è*  é*  ê*  ë*  ì*  í*  î*  ï*  ğ*  ñ*  ò*  ó*  ô*  õ*  ö*  ÷*  ø*  ù*  ú*  û*  ü*  ı*  ş*  ÿ*   +  +  +  +  +  +  +  +  +  	+  
++  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +  +   +  !+  "+  #+  $+  %+  &+  '+  (+  )+  *+  ++  ,+  -+  .+  /+  0+  1+  2+  3+  4+  5+  6+  7+  8+  9+  :+  ;+  <+  =+  >+  ?+  @+  A+  B+  C+  D+  E+  VINET TOMSP HANAR VICTE SUPRD CHOPS RICSU WELLI HILAA ERNSH CENTC OTTIK QUEDE RATTC FOLKO BLONP WARTH FRANK GROSR WHITC SPLIR QUICK MAGAA TORTU MORGK BERGS LEHMS ROMEY LILAS RICAR REGGC BSBEV COMMI TRADH HUNGO WANDK GODOS OLDWO LONEP ANATR THEBI DUMON ISLAT PERIC KOENE SAVEA BOLID FURIB BONAP MEREP PRINI SIMOB FAMIA LAMAI PICCO AROUT SEVES DRACD EASTC ANTON GALED VAFFE QUEEN WOLZA HUNGC SANTG BOTTM LINOD FOLIG OCEAN FRANS GOURL CONSH RANCH LAZYK LAUGB BLAUS NORTS CACTU GREAL MAISD TRAIH LETSS WILMK THECR FRANR SPECD LACOR ALFKI             	               g…  h…  k…  l…  m…  n…  o…  r…  s…  t…  u…  v…  y…  z…  {…  |…  }…  €…  …  ‚…  ƒ…  „…  ‡…  ˆ…  ‰…  Š…  ‹…  …  …  …  ‘…  ’…  •…  –…  —…  ˜…  ™…  œ…  …  …  Ÿ…   …  £…  ¤…  ¥…  ¦…  §…  ª…  «…  ¬…  ­…  ®…  ±…  ²…  ³…  ´…  µ…  ¸…  ¹…  º…  »…  ¼…  ¿…  À…  Á…  Â…  Ã…  Æ…  Ç…  È…  É…  Ê…  Í…  Î…  Ï…  Ğ…  Ñ…  Ô…  Õ…  Ö…  ×…  Ø…  Û…  Ü…  İ…  Ş…  ß…  â…  ã…  ä…  å…  æ…  é…  ê…  ë…  ì…  í…  ğ…  ñ…  ò…  ó…  ô…  ÷…  ø…  ù…  ú…  û…  ş…  ÿ…   †  †  †  †  †  †  †  	†  †  †  †  †  †  †  †  †  †  †  †  †  †  †  †  !†  "†  #†  $†  %†  (†  )†  *†  +†  ,†  /†  0†  1†  2†  3†  6†  7†  8†  9†  :†  =†  >†  ?†  @†  A†  D†  E†  F†  G†  H†  K†  L†  M†  N†  O†  R†  S†  T†  U†  V†  Y†  Z†  [†  \†  ]†  `†  a†  b†  c†  d†  g†  h†  i†  j†  k†  n†  o†  p†  q†  r†  u†  v†  w†  x†  y†  |†  }†  ~†  †  €†  ƒ†  „†  …†  ††  ‡†  Š†  ‹†  Œ†  †  †  ‘†  ’†  “†  ”†  •†  ˜†  ™†  š†  ›†  œ†  Ÿ†   †  ¡†  ¢†  £†  ¦†  §†  ¨†  ©†  ª†  ­†  ®†  ¯†  °†  ±†  ´†  µ†  ¶†  ·†  ¸†  »†  ¼†  ½†  ¾†  ¿†  Â†  Ã†  Ä†  Å†  Æ†  É†  Ê†  Ë†  Ì†  Í†  Ğ†  Ñ†  Ò†  Ó†  Ô†  ×†  Ø†  Ù†  Ú†  Û†  Ş†  ß†  à†  á†  â†  å†  æ†  ç†  è†  é†  ì†  í†  î†  ï†  ğ†  ó†  ô†  õ†  ö†  ÷†  ú†  û†  ü†  ı†  ş†  ‡  ‡  ‡  ‡  ‡  ‡  	‡  
+‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡   ‡  !‡  $‡  %‡  &‡  '‡  (‡  +‡  ,‡  -‡  .‡  /‡  2‡  3‡  4‡  5‡  6‡  9‡  :‡  ;‡  <‡  =‡  @‡  A‡  B‡  C‡  D‡  G‡  H‡  I‡  J‡  K‡  N‡  O‡  P‡  Q‡  R‡  U‡  V‡  W‡  X‡  Y‡  \‡  ]‡  ^‡  _‡  `‡  c‡  d‡  e‡  f‡  g‡  j‡  k‡  l‡  m‡  n‡  q‡  r‡  s‡  t‡  u‡  x‡  y‡  z‡  {‡  |‡  ‡  €‡  ‡  ‚‡  ƒ‡  †‡  ‡‡  ˆ‡  ‰‡  Š‡  ‡  ‡  ‡  ‡  ‘‡  ”‡  •‡  –‡  —‡  ˜‡  ›‡  œ‡  ‡  ‡  Ÿ‡  ¢‡  £‡  ¤‡  ¥‡  ¦‡  ©‡  ª‡  «‡  ¬‡  ­‡  °‡  ±‡  ²‡  ³‡  ´‡  ·‡  ¸‡  ¹‡  º‡  »‡  ¾‡  ¿‡  À‡  Á‡  Â‡  Å‡  Æ‡  Ç‡  È‡  É‡  Ì‡  Í‡  Î‡  Ï‡  Ğ‡  Ó‡  Ô‡  Õ‡  Ö‡  ×‡  Ú‡  Û‡  Ü‡  İ‡  Ş‡  á‡  â‡  ã‡  ä‡  å‡  è‡  é‡  ê‡  ë‡  ì‡  ï‡  ğ‡  ñ‡  ò‡  ó‡  ö‡  ÷‡  ø‡  ù‡  ú‡  ı‡  ş‡  ÿ‡   ˆ  ˆ  ˆ  ˆ  ˆ  ƒ…  ’…  ‡…  ˆ…  {…  Š…  ‹…  …  …  …  ‘…  •…  –…  —…  ˜…  §…  œ…  …  Ÿ…   …  £…  ¤…  ¥…  ª…  «…  ¬…  …  ­…  ®…  ±…  ²…  ³…  ´…  µ…  ¸…  ¹…  º…  »…  ¼…  ¿…  À…  Ï…  Â…  Ã…  Æ…  Ç…  È…  É…  Ê…  Í…  Î…  Ğ…  Ñ…  Ô…  Õ…  Ö…  ×…  Ø…  Û…  Ü…  İ…  Ş…  ß…  â…  ã…  å…  æ…  é…  ø…  ë…  ù…  ú…  í…  ğ…  ñ…  ò…  ó…  ô…  ÷…  û…  ş…  †   †  †  †  †  †  †  	†  †  †  †  †  †  †  "†  †  $†  †  †  †  †  †  †  †  !†  #†  %†  (†  )†  *†  +†  ,†  /†  0†  1†  2†  3†  6†  8†  G†  :†  =†  L†  >†  ?†  @†  A†  D†  E†  F†  H†  K†  Z†  M†  N†  O†  R†  S†  b†  Y†  h†  [†  \†  ]†  `†  n†  a†  c†  d†  g†  i†  j†  k†  |†  }†  o†  p†  q†  r†  u†  v†  w†  x†  y†  ~†  †  €†  ƒ†  …†  ††  ‡†  Š†  Œ†  †  †  ‘†  ’†  “†  ”†  •†  ˜†  ™†  š†  ›†  œ†  Ÿ†   †  ¡†  ¢†  £†  ¦†  µ†  §†  ©†  ­†  ®†  ¯†  °†  ±†  ´†  ¶†  ·†  ¸†  »†  ¼†  ½†  ¾†  ¿†  Â†  Ã†  Ä†  Å†  Æ†  É†  Ë†  Ù†  Ì†  Í†  Ğ†  ß†  Ò†  Ó†  Ô†  ×†  æ†  Ø†  Ú†  Û†  Ş†  í†  à†  á†  ó†  ç†  è†  é†  ì†  î†  ï†  ğ†  å†  ô†  õ†  ö†  ÷†  ú†  	‡  ü†  
+‡  ı†  ş†  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  $‡  ‡  ‡  ‡  ‡  ‡  ‡   ‡  !‡  %‡  4‡  5‡  '‡  (‡  +‡  ,‡  -‡  .‡  /‡  2‡  3‡  &‡  6‡  9‡  :‡  ;‡  <‡  =‡  @‡  A‡  B‡  C‡  D‡  H‡  I‡  J‡  Y‡  K‡  N‡  ]‡  ^‡  P‡  Q‡  R‡  G‡  c‡  V‡  W‡  X‡  g‡  \‡  k‡  `‡  e‡  s‡  f‡  t‡  j‡  y‡  l‡  m‡  n‡  q‡  r‡  u‡  x‡  z‡  {‡  |‡  ‡  €‡  ‡  ‚‡  ƒ‡  †‡  ‡‡  ˆ‡  ‰‡  Š‡  ‡  ‡  ‡  ‡  ‘‡  ”‡  •‡  –‡  —‡  ˜‡  ›‡  œ‡  ‡  ‡  Ÿ‡  ­‡  ¢‡  £‡  ¤‡  ¥‡  ¦‡  ©‡  ª‡  «‡  ¬‡  °‡  ±‡  ¿‡  ²‡  ³‡  ´‡  ·‡  Å‡  ¸‡  ¹‡  È‡  »‡  É‡  ¾‡  À‡  Á‡  Â‡  Ğ‡  Æ‡  Ô‡  Ç‡  Ì‡  Í‡  Û‡  Î‡  Ï‡  Ó‡  Õ‡  Ö‡  ×‡  Ú‡  Ü‡  İ‡  Ş‡  á‡  â‡  ğ‡  ã‡  ä‡  ó‡  å‡  è‡  é‡  ê‡  ë‡  ì‡  ï‡  ı‡  ş‡  ñ‡  ÿ‡  ò‡  ö‡  ÷‡  ø‡  ˆ  ù‡  ˆ  ú‡  ˆ   ˆ  ˆ  ˆ  ˆ  ˆ  ˆ  ˆ  ˆ  ˆ   ˆ  ˆ  ˆ  ˆ  ˆ  ˆ  ˆ  ˆ  ˆ  )ˆ  ˆ  *ˆ  ˆ  !ˆ  "ˆ  s…  m…  o…  r…  n…  z…  t…  y…  |…  €…  …  ‚…  ™…  …  ˆ…  „…  ‹…   …  ’…  …  …  ­…  —…  …  œ…  …  ¤…  ¥…  £…  ¬…  ¦…  «…  ®…  ³…  ²…  È…  ¸…  º…  ¹…  Ö…  ¼…  »…  Â…  Ã…  Ç…  É…  Ê…  Ñ…  Í…  Ğ…  Û…  Ô…  Ø…  ×…  Ü…  â…  æ…  ã…  ä…  é…  í…  ÿ…  ò…  ğ…  ÷…  ù…  ş…  ø…  ú…   †  †  †  †  †  †  	†  †  +†  †  †  †  †  †  †  †  †  †  !†  †  $†  #†  %†  1†  (†  9†  )†  *†  0†  ,†  3†  6†  7†  :†  R†  H†  @†  Y†  >†  A†  =†  Z†  G†  E†  F†  D†  V†  d†  L†  O†  N†  M†  ]†  U†  a†  b†  T†  S†  [†  h†  \†  c†  i†  k†  y†  n†  o†  p†  †  †  v†  u†  w†  r†  ~†  x†  }†  €†  |†  …†  ††  ’†  ‡†  Š†  •†  ‹†   †  ‘†  †  £†  ª†  ”†  ˜†  ™†  ±†  š†  ¢†  œ†  Ÿ†  ¦†  ©†  ¡†  ¨†  ¸†  ¿†  °†  ­†  Ì†  ®†  ´†  ·†  µ†  ¶†  ¼†  »†  ¾†  Ê†  Â†  Ä†  Ã†  Ù†  Û†  Å†  Ô†  Ë†  Æ†  Ğ†  é†  Ñ†  Ò†  Ş†  Ú†  à†  ü†  û†  â†  å†  æ†  ÷†  í†  ï†  ğ†  î†  õ†  ô†  ó†  ö†  ı†  ú†  ‡  ‡  ‡  ş†  ‡  	‡  ‡  
+‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  ‡  !‡  ‡  ‡  ;‡   ‡  /‡  ‡  $‡  %‡  &‡  (‡  ,‡  +‡  <‡  -‡  4‡  J‡  3‡  B‡  9‡  6‡  5‡  :‡  =‡  A‡  @‡  R‡  ]‡  C‡  P‡  _‡  I‡  K‡  D‡  G‡  O‡  d‡  n‡  V‡  Y‡  U‡  W‡  `‡  \‡  c‡  f‡  e‡  g‡  |‡  l‡  k‡  x‡  m‡  u‡  s‡  q‡  r‡  z‡  Š‡  y‡  ƒ‡  {‡  ‡  ‡  –‡  ‚‡  ‡  €‡  ›‡  ˆ‡  ‰‡  ‡  œ‡  ‡  ‡  ‡  ‘‡  ¦‡  ”‡  «‡  •‡  ˜‡  —‡  ­‡  Ÿ‡  ‡  ·‡  ¥‡  ¢‡  ±‡  ©‡  ª‡  ¬‡  ¸‡  °‡  ³‡  ²‡  ¾‡  ´‡  Æ‡  º‡  ¹‡  »‡  Å‡  Â‡  À‡  É‡  Á‡  Ç‡  Í‡  È‡  Õ‡  Ì‡  Î‡  Ğ‡  ê‡  Ï‡  Ö‡  Û‡  Ó‡  Ú‡  ×‡  Ô‡  é‡  Ü‡  Ş‡  á‡  İ‡  ä‡  ã‡  ú‡  å‡  ì‡  ù‡  â‡  ó‡  è‡  ÷‡  ë‡  ï‡  ğ‡  ò‡  ö‡  ñ‡  ˆ  ş‡  ø‡  ı‡   ˆ  ˆ  ÿ‡  ˆ  ˆ           q=
+×£0@@¸…ëQ8'@…ëQ¸uP@ìQ¸…«D@fffff¦I@ö(\ÂM@{®Gáú6@Ãõ(\Šb@q=
+×£ğ+@
+×£p=zT@¸…ëQa@      
+@ìQ¸…‹K@ffffff@…ëQ¸%H@R¸…ëAb@\Âõ(\@¤p=
+×£K@{®Gáº9@Ãõ(\j@Ãõ(\’P@=
+×£p=@áz®Ga@)\Âõ(@R¸…ëX@®GázS@
+×£p=
+@®Gázî:@®Gáz®+@áz®Gq_@\Âõ(,W@®GázÔ9@ö(\Âõ!@…ëQ¸…@áz®Ga)@¤p=
+×3U@¤p=
+×#S@…ëQ¸5S@Ház®§l@…ëQ¸…)@ÍÌÌÌÌÌ@…ëQ¸Å6@ÍÌÌÌÌìS@š™™™™™@š™™™™™õ?®Gáz.5@¸…ëQhb@ffffffò?¸…ëQ¸¾?ö(\Âõ@×£p=
+e@Ãõ(\Â=@®Gáz®1@
+×£p=ŠF@®Gáz@…ëQ¸õZ@…ëQ¸åO@R¸…ëp@=
+×£p=@ìQ¸…ëá?Ãõ(\Âù?fffff¦G@…ëQ¸…1@q=
+×£°8@áz®G!D@\Âõ(\ÿ?
+×£p=ŠR@áz®GáD@ÍÌÌÌÌÄb@ìQ¸…ë@      P@)\ÂõHA@q=
+×£p@š™™™™™Ù?…ëQ¸…@q=
+×£Èj@×£p=
+7P@{®GázS@®Gáz®O@R¸…ëÁU@=
+×£põg@     €)@áz®Ga$@ìQ¸…kJ@áz®Gáâ?…ëQ¸!@®GázE@…ëQ¸/@q=
+×£[@=
+×£pU@R¸…ëQ/@R¸…ëÉd@Ház®Ç:@
+×£p=jK@Ház®—[@
+×£p=J7@R¸…ë!o@Ãõ(\Âa@ÍÌÌÌÌÌ@ö(\Âõè?Ãõ(\B!@\Âõ(P@Ãõ(\Jd@ÍÌÌÌÌÌô?®GázŠv@fffffæJ@š™™™™ùD@{®GáZB@q=
+×£pA@¤p=
+×£3@{®Gár@fffffv`@=
+×£påf@Ãõ(\X@
+×£p=Š>@®GázşQ@   Ház®G$@š™™™™+@ÍÌÌÌÌ|Y@ö(\Âuh@¸…ëQ¸ò?ÍÌÌÌÌÌÜ?
+×£p=Ö‹@Ház®_@…ëQ¸…@…ëQ¸4@¤p=
+×c4@ö(\Â56@Ãõ(\Â@¤p=
+×ƒF@¤p=
+×ƒA@ö(\Âõ@áz®G±W@…ëQ¸A@®Gáze@ö(\Âõ>@{®Gáú+@¸…ëQhW@®GáznA@ö(\ÂµG@¸…ëQ˜_@ÍÌÌÌÌÌ@=
+×£p^@¤p=
+×£_@×£p=
+W>@…ëQ¸g@33333ë`@áz®G!N@
+×£p=JV@\Âõ(\;@ìQ¸…ûT@…ëQ¸)@¸…ëQøP@Ãõ(\rR@×£p=
+c@)\ÂõhA@Ãõ(\[@…ëQ¸ŞV@…ëQ¸…&@®GázÔ=@333333@fffff¦7@)\Âõ(@
+×£p=êW@{®Gáz5@š™™™™™É?¸…ëQ¸6@Ãõ(\’Q@ÍÌÌÌÌŒ1@33333+a@Âõ(\F@…ëQ¸ÎX@)\Âõ(@     €8@ö(\Â)w@¸…ëQ¸@q=
+×£°2@
+×£p=J?@®Gáz.&@q=
+×£PL@®Gáz¬|@ö(\ÂF@\Âõ(\@…ëQ¸uR@ìQ¸…ë1@ìQ¸…k"@…ëQ¸•c@¸…ëQø3@{®Gáz @Ház®G@R¸…ë¡U@áz®GAR@¸…ëQøG@fffffæ+@      @š™™™™™"@\Âõ(\-@
+×£p=*Q@)\ÂõhC@fffff¦J@ìQ¸…ë@{®Gá¢g@¸…ëQˆa@\Âõ(\9@ìQ¸…ë@ffffff@=
+×£p= @¤p=
+×#'@R¸…ëab@×£p=
+9@…ëQ¸E0@ìQ¸…“b@®Gáz®@Âõ(\-@Y   áz®G!b@\Âõ(Ü'@¸…ëQ¸@×£p=
+N@¤p=
+×#P@ìQ¸…ËF@ÍÌÌÌÌÌ@…ëQ¸^0@Âõ(\ßT@áz®G!Q@¤p=
+×£@
+×£p=
+*@=
+×£p=@š™™™™'†@…ëQ¸P@ìQ¸…ë@Âõ(\.@…ëQ¸…@ÍÌÌÌÌP@Ház®‡>@®GázÄQ@)\Âõ(@®GázFj@ö(\Âõ0@R¸…ëqO@Ház®G%@Âõ(\P@š™™™™™@Ãõ(\bG@{®GáB@     À=@áz®GY@×£p=
+WE@33333³!@®GázTQ@=
+×£p½0@q=
+×£M@…ëQ¸…@q=
+×£05@š™™™™¹G@ö(\Âõ@333333Ã?®Gázúv@
+×£p=êu@=
+×£p=@š™™™™iZ@š™™™™¯ˆ@×£p=
+i@¤p=
+×cO@)\Âõ@@ÍÌÌÌÌDk@q=
+×£ğV@=
+×£p½*@¸…ëQ81@
+×£p=ªF@¸…ëQhS@áz®G™n@…ëQ¸&@ìQ¸…KM@33333óD@ÍÌÌÌÌÌ
+@\Âõ(¬P@ìQ¸…3u@=
+×£pR@áz®Gg@q=
+×£ğ;@Ház®G/@q=
+×£pM@fffff¶S@{®Gáz@¸…ëQ¸(@…ëQ¸}@š™™™™)Q@fffffæ%@ö(\ÂH@)\Âõè8@×£p=
+×'@×£p=
+Wh@ö(\ÂMf@áz®Gáö?Ház®ge@Ház®G@ÍÌÌÌÌ<R@®GázÎT@Ház®¯b@®Gáz>^@Ház®o@š™™™™™#@®Gáz.X@®Gáz>R@š™™™™ @33333SB@…ëQ¸Fn@33333ó6@×£p=
+7N@     €+@š™™™™™@š™™™™V@\Âõ(ü@@)\Âõ(@=
+×£p}M@Ház®Ÿg@Âõ(\:@ìQ¸…]@ö(\Â5U@ÍÌÌÌÌÌB@ö(\ÂÕ_@Âõ(\2@)\Âõh9@š™™™™™=@ö(\Âu+@)\ÂõøR@®Gáz@ö(\Âµ;@…ëQ¸@R¸…ë‘M@R¸…ëÑ*@¸…ëQ¸Ş?Ãõ(\BO@=
+×£pUh@®Gáz®@Ãõ(\bF@ö(\ÂõK@ÍÌÌÌÌ@@fffffÆe@ö(\Âõ@R¸…ë1X@×£p=
+W0@Âõ(\A@ö(\Â5F@{®Gáú=@q=
+×£F@fffff&M@\Âõ(\@Ãõ(\bH@×£p=
+×@®Gáz²w@š™™™™ÙS@Ház®i@
+×£p=Ê;@š™™™™™ı?š™™™™)T@q=
+×£ @¸…ëQ8 @áz®Gáş?      è?R¸…ë!]@Ház®‡2@ö(\ÂUc@33333ÃV@®Gázî?{®Gáº7@\Âõ(|I@ìQ¸…KX@33333³W@33333óE@®GázVa@=
+×£pİZ@\Âõ(\>@=
+×£p]U@ÍÌÌÌÌ,@@×£p=
+×ë?q=
+×£°D@fffffŞ}@®Gázv~@{®GáºG@áz®G)i@®GázÎc@R¸…ëQC@ÍÌÌÌÌŒ7@ìQ¸…sf@R¸…ëñD@ö(\Âu=@ìQ¸…ëÁ?R¸…ëÑ(@Ãõ(\Êa@…ëQ¸ÅF@     €,@ÍÌÌÌÌÌ@R¸…ëf@š™™™™™4@Âõ(\@     PW@áz®G¡K@33333“L@×£p=
+v@fffffÂv@¤p=
+×sZ@Ãõ(\Ò[@{®Gázô?š™™™™I\@R¸…ëQô?Âõ(\O:@=
+×£pm@ö(\Â…S@\Âõ(œG@¤p=
+×c8@Âõ(\oi@     ğW@Ãõ(\Â6@ÍÌÌÌÌÌì?š™™™™Ù?@®Gáz @…ëQ¸@Ház®Ox@\Âõ(œ:@¸…ëQS@q=
+×£B@š™™™™™@\Âõ(4b@     à@@      X@{®Gá†r@=
+×£p±r@×£p=
+×*@š™™™™™/@fffffP‰@Ãõ(\‚N@{®Gája@ö(\Âåx@¸…ëQ¸0@33333£Y@Ãõ(\ÂF@ìQ¸…q@Âõ(\â?fffffFP@R¸…ë‰k@q=
+×£ğ7@š™™™™	c@…ëQ¸@)\Âõ(@\Âõ(ô`@=
+×£p½5@®Gáz®@š™™™™Yj@ìQ¸…ë@®Gáz4J@ìQ¸…{V@š™™™™ád@=
+×£p}8@š™™™™™O@R¸…ë‘6@      M@\Âõ(\e@¸…ëQ¸I@Âõ(\#@ö(\ÂuH@…ëQ¸¥R@¸…ëQ¸5@     àL@)\Âõ¨%@Âõ(\0@š™™™™yV@
+×£p=*M@R¸…ë¡a@š™™™™)X@¸…ëQø0@×£p=
+‡[@®Gázú?\Âõ(üF@ÍÌÌÌÌF@)\Âõ(@Ház®G@)\Âõ(&@¸…ëQxT@ìQ¸…ë%@Âõ(\wn@¸…ëQ¸7@\Âõ(LQ@®Gázn?@…ëQ¸U]@š™™™™m@¤p=
+×ÃN@33333ÓS@áz®GY`@=
+×£p=ö?ÍÌÌÌÌÌ@
+×£p=
+@ö(\Âµ0@=
+×£pMR@áz®Ga @=
+×£pEa@{®Gáú'@®Gáztc@)\Âõ¨2@¤p=
+×‹t@ÍÌÌÌÌ¬B@fffff.b@…ëQ¸^E@š™™™™±c@q=
+×£pù?
+×£p=Jb@¤p=
+×CP@Ház®G@áz®Ga&@R¸…ëÑV@ìQ¸…X@š™™™™H@     @4@®Gázøu@)\Âõ(@q=
+×£M@q=
+×£E@
+×£p=JR@š™™™™™ñ?…ëQ¸>_@ö(\Â…Q@)\Âõ(ø?Ház®·[@ö(\Â=o@š™™™™YE@fffff&Y@{®Gá:<@š™™™™Ù0@
+×£p=Ê7@®Gáz@=
+×£p}5@
+×£p=ª_@…ëQ¸…:@ÍÌÌÌÌ¬@@¤p=
+×£@Ãõ(\Â>@®Gáz.a@ö(\ÂEX@\Âõ(p@=
+×£pK@®GázT;@{®Gáªm@\Âõ(6@Ãõ(\Âõ?¤p=
+×ÃF@R¸…ëQ@¸…ëQ8?@¤p=
+×ãM@q=
+×£°G@®Gáz^`@=
+×£p=-@
+×£p=~†@…ëQ¸!s@…ëQ¸^P@Ãõ(\Â3@Ãõ(\ÂB@×£p=
+WB@   ×£p=
+d@®Gáz®ó?     ĞS@\Âõ(\@…ëQ¸ÅO@fffff¶V@×£p=
+Wc@…ëQ¸uT@\Âõ(R@áz®G¡E@Âõ(\ßQ@Ház®Ç=@®Gáz¾y@¤p=
+×£*@¤p=
+×£M@×£p=
+·A@®Gáz®@ÍÌÌÌÌ„z@ö(\Â5K@…ëQ¸…"@¸…ëQ89@Âõ(\Ÿj@{®Gá:L@…ëQ¸y~@…ëQ¸C@¸…ëQ˜H@š™™™™d@š™™™™Áe@
+×£p=êJ@®GázY@×£p=
+_e@×£p=
+7M@33333›g@áz®GAJ@fffffS@Ãõ(\B3@\Âõ(Ü-@=
+×£pJ@Ãõ(\B>@R¸…ëQ@
+×£p=Âu@×£p=
+G[@q=
+×£èg@)\Âõèa@®Gáz(@áz®G\@
+×£p=êe@=
+×£p=ê?®Gáz”3@Âõ(\/@@ö(\Â5N@Ház®C@¸…ëQXG@      !@q=
+×£ V@¸…ëQ¸@š™™™™7@ö(\Âõà?®Gáz¾V@Âõ(\@      ô?Âõ(\ïI@ö(\Â‰q@áz®Ga@@…ëQ¸^4@áz®G^@R¸…ëqS@¸…ëQ]@     Xd@š™™™™9@@¸…ëQÜ‚@\Âõ(\ó?Âõ(\ú?ìQ¸…O@33333F@fffff^d@q=
+×£p+@
+×£p=J:@áz®Ga"@{®Gáz@@fffff†J@®GázC@¸…ëQC@áz®G'‚@fffff†@@®Gáz@Ãõ(\âO@®Gáz” @
+×£p=jH@ÍÌÌÌÌÌ3@\Âõ(œ=@Âõ(\f@…ëQ¸^O@q=
+×£Q@q=
+×£ğb@)\Âõ(@ö(\ÂõC@
+×£p=Ê3@×£p=
+÷@@š™™™™/@333333+@®GázÔ`@33333K@áz®G@@ìQ¸…ËG@×£p=
+×@@Ãõ(\‚?@¤p=
+×ã?@…ëQ¸S@…ëQ¸Å3@)\Âõy@33333ó1@\Âõ(\@ö(\ÂuJ@q=
+×£p$@333333;@®Gáz
+@¤p=
+×c7@\Âõ(œR@      @š™™™™Ù>@ö(\Â5D@)\Âõè;@33333SF@×£p=
+WZ@Ház®ÇH@¤p=
+×£ @®GázZ@q=
+×£<q@š™™™™™@¸…ëQØU@\Âõ(b@q=
+×£0;@\Âõ(O@fffff¦R@áz®GáÊ?)\Âõ(0@®Gázt^@{®Gáz”?×£p=
+W.@ìQ¸…ë)@Ãõ(\"@@\Âõ(üB@     j@)\Âõh@@…ëQ¸v@)\Âõ(ô?¤p=
+×+h@…ëQ¸,@¸…ëQŒ„@×£p=
+gj@q=
+×£àV@ìQ¸…;k@Âõ(\/g@R¸…ë‘N@áz®GaA@×£p=
+g]@áz®GAC@®Gáz@…ëQ¸!@R¸…ëaP@.   ìQ¸…ëñ?
+×£p=zR@Âõ(\O4@fffffX@Âõ(\K@š™™™™©h@…ëQ¸¥a@R¸…ëÑ-@ìQ¸…kF@q=
+×£09@Ház®Gi@=
+×£pİS@®GázM@ö(\Âµ<@fffff^n@…ëQ¸~@@š™™™™™7@{®Gáz@fffffæ@@®Gáz’‡@ÍÌÌÌÌL'@\Âõ(\	@fffff¦E@{®Gá’r@…ëQ¸õ^@×£p=
+—R@ìQ¸…+=@ìQ¸…‹G@Ãõ(\BJ@×£p=
+—=@ìQ¸…ëG@     ö‰@×£p=
+gl@ìQ¸…ñ‚@Âõ(\/U@)\Âõ(D@Ãõ(\ÂÅ?×£p=
+¯b@š™™™™™	@A   ×£p=
+×2@\Âõ(H@=
+×£pı=@š™™™™™!@q=
+×£p!@…ëQ¸¥Q@)\ÂõèQ@Âõ(\OG@…ëQ¸8@®Gáz® @®Gáz´M@R¸…ëQ@q=
+×£ĞP@…ëQ¸Õ?{®Gá:^@Âõ(\oq@…ëQ¸…@¤p=
+×#?@33333sU@ö(\Âõ%@®Gázî=@…ëQ¸nT@×£p=
+>@R¸…ëÑ)@\Âõ(\F@ìQ¸…ë@     pT@×£p=
+W/@ˆ   Ãõ(\Âí?
+×£p=*p@33333ó8@q=
+×£p2@Ãõ(\Â@¤p=
+×#C@Âõ(\!@Vins et alcools Chevalier Toms SpezialitÃ¤ten Hanari Carnes Victuailles en stock SuprÃªmes dÃ©lices Chop-suey Chinese Richter Supermarkt Wellington Importadora HILARIÃ“N-Abastos Ernst Handel Centro comercial Moctezuma Ottilies KÃ¤seladen Que DelÃ­cia Rattlesnake Canyon Grocery Folk och fÃ¤ HB Blondel pÃ¨re et fils Wartian Herkku Frankenversand GROSELLA-Restaurante White Clover Markets Split Rail Beer & Ale QUICK-Stop Magazzini Alimentari Riuniti Tortuga Restaurante Morgenstern Gesundkost Berglunds snabbkÃ¶p Lehmanns Marktstand Romero y tomillo LILA-Supermercado Ricardo Adocicados Reggiani Caseifici B's Beverages ComÃ©rcio Mineiro TradiÃ§Ã£o Hipermercados Hungry Owl All-Night Grocers Die Wandernde Kuh Godos Cocina TÃ­pica Old World Delicatessen Lonesome Pine Restaurant Ana Trujillo Emparedados y helados The Big Cheese Du monde entier Island Trading Pericles Comidas clÃ¡sicas KÃ¶niglich Essen Save-a-lot Markets BÃ³lido Comidas preparadas Furia Bacalhau e Frutos do Mar Bon app' MÃ¨re Paillarde Princesa Isabel Vinhos Simons bistro Familia Arquibaldo La maison d'Asie Piccolo und mehr Around the Horn Seven Seas Imports Drachenblut Delikatessen Eastern Connection Antonio Moreno TaquerÃ­a GalerÃ­a del gastronÃ³mo Vaffeljernet Queen Cozinha Wolski Zajazd Hungry Coyote Import Store SantÃ© Gourmet Bottom-Dollar Markets LINO-Delicateses Folies gourmandes OcÃ©ano AtlÃ¡ntico Ltda. Franchi S.p.A. Gourmet Lanchonetes Consolidated Holdings Rancho grande Lazy K Kountry Store Laughing Bacchus Wine Cellars Blauer See Delikatessen North/South Cactus Comidas para llevar Great Lakes Food Market Maison Dewey Trail's Head Gourmet Provisioners Let's Stop N Shop Wilman Kala The Cracker Box France restauration SpÃ©cialitÃ©s du monde La corne d'abondance Alfred's Futterkiste 59 rue de l'Abbaye Luisenstr. 48 Rua do PaÃ§o, 67 2, rue du Commerce Boulevard Tirou, 255 Hauptstr. 31 Starenweg 5 Rua do Mercado, 12 Carrera 22 con Ave. Carlos Soublette #8-35 Kirchgasse 6 Sierras de Granada 9993 Mehrheimerstr. 369 Rua da Panificadora, 12 2817 Milton Dr. Ã…kergatan 24 24, place KlÃ©ber Torikatu 38 Berliner Platz 43 5Âª Ave. Los Palos Grandes 1029 - 12th Ave. S. P.O. Box 555 TaucherstraÃŸe 10 Via Ludovico il Moro 22 Avda. Azteca 123 Heerstr. 22 BerguvsvÃ¤gen  8 Magazinweg 7 Gran VÃ­a, 1 Carrera 52 con Ave. BolÃ­var #65-98 Llano Largo Av. Copacabana, 267 Strada Provinciale 124 Fauntleroy Circus Av. dos LusÃ­adas, 23 Av. InÃªs de Castro, 414 8 Johnstown Road Adenauerallee 900 C/ Romero, 33 2743 Bering St. 89 Chiaroscuro Rd. Avda. de la ConstituciÃ³n 2222 89 Jefferson Way
+Suite 2 67, rue des Cinquante Otages Garden House
+Crowther Way Calle Dr. Jorge Cash 321 Maubelstr. 90 187 Suffolk Ln. C/ Araquil, 67 Jardim das rosas n. 32 12, rue des Bouchers 43 rue St. Laurent Estrada da saÃºde n. 58 VinbÃ¦ltet 34 Rua OrÃ³s, 92 1 rue Alsace-Lorraine Geislweg 14 Brook Farm
+Stratford St. Mary 90 Wadhurst Rd. Walserweg 21 35 King George Mataderos  2312 Rambla de CataluÃ±a, 23 SmagslÃ¸get 45 Alameda dos CanÃ rios, 891 ul. Filtrowa 68 City Center Plaza
+516 Main St. Erling Skakkes gate 78 23 Tsawassen Blvd. Ave. 5 de Mayo Porlamar 184, chaussÃ©e de Tournai Ing. Gustavo Moncada 8585
+Piso 20-A Via Monte Bianco 34 Av. Brasil, 442 Berkeley Gardens
+12  Brewery Av. del Libertador 900 12 Orchestra Terrace 2319 Elm St. Forsterstr. 57 South House
+300 Queensbridge Cerrito 333 2732 Baker Blvd. Rue Joseph-Bens 532 722 DaVinci Blvd. 87 Polk St.
+Suite 5 Keskuskatu 45 55 Grizzly Peak Rd. 54, rue Royale 25, rue Lauriston 67, avenue de l'Europe 120 Hanover Sq. Obere Str. 57 Reims MÃ¼nster Rio de Janeiro Lyon Charleroi Bern GenÃ¨ve Resende San CristÃ³bal Graz MÃ©xico D.F. KÃ¶ln Albuquerque BrÃ¤cke Strasbourg Oulu MÃ¼nchen Caracas Seattle Lander Cunewalde Bergamo Leipzig LuleÃ¥ Frankfurt a.M. Madrid Barquisimeto Reggio Emilia London SÃ£o Paulo Cork Stuttgart Sevilla Anchorage Portland Nantes Hedge End Brandenburg Boise Lisboa Marseille MontrÃ©al KÃ¸benhavn Toulouse Salzburg Colchester Aachen Barcelona Ã…rhus Warszawa Elgin Stavern Tsawassen I. de Margarita Lille Buenos Aires Torino Campinas Walla Walla Vancouver Mannheim Eugene Bruxelles Kirkland San Francisco Helsinki Butte Paris Versailles Berlin RJ SP TÃ¡chira NM DF WA WY Lara Co. Cork AK OR Lancashire ID QuÃ©bec Essex BC Nueva Esparta CA MT œÇ  51100 7¬  44087 05454-876 Œ 69004 B-6000 Ä  3012 ´  1204 08737-363   5022 J  8010 3Æ  50739 02389-673 FT 87110 S-844 67 ¸ 67000 ş_ 90110 ¥; 80805 9  1081 L 98124 XB 82520   01307 $^  24100 ©  05033 S  04179 S-958 22 pì  60528 am  28001 ´  3508 02389-890 t¤  42100 EC2 5NT 05432-043 05634-030 £ 70563    41101 ´„ 99508 Ã{ 97219   05021 ±{ 97201 à«  44000 LA9 PX8 ¸9  14776 G 83720 wm  28023 ‹  1675 Ğ2  13008 H1J 1C3 Ü  1756 Æ  1734 05442-030 y  31000 œ  5020 CO7 6JX OX15 4NB bË  52066 WX3 6FW Ÿ  05023 V  8022    8200 05487-020 01-012 #~ 97827   4110 T2F 8M4 t  4980 xæ  59000 ò  1010 t'  10100 04876-786 WX1 6LT "„ 99362 V3F 2K1 Ò
+ 68306 SW7 1RZ {| 97403 B-1180 ò~ 98034 ¥o 94117 øR  21240 ™é  59801 ±/  12209 % 75016 °0 78000 WA1 1DP France Germany Brazil Belgium Switzerland Venezuela Austria Mexico USA Sweden Finland Italy Spain UK Ireland Portugal Canada Denmark Poland Norway Argentina            €@  A ‚€Á  ƒB „ƒA‚€‚
+… …ƒ ÃŒ‡‡„	D	
+€„	‰
+‰E Å
+
+
+
+€‹ FFŒ ‚†”†
+€Ä	‰ 	€G H ˆ 
+€È"I	$’‘	œI&“ J ˆ 	
+
+H Ê(	“Š”	‡€J*
+ € €
+  A Ë,
+•K€.
+ L0˜–€Œ2™	 Í4˜ €2™	M!€M6N"€6›N#$Î8š$ 	 4š˜M%€J	!*
+‹&€Š	"*•'ˆÎ	#:( 
+$<›O)€O
+%>*
+&@ P+Æ
+&Œ‚†,Œ'B!
+‘-€K(.—
+
+.”†) ‡/ À* €!  0$+8šN1€G,!  ˆ2(‘-D"€3ˆÎ.:"4 /,#•‹5€Q/F#$Ÿ‘6 ‚0„%ƒ7 Ò1H$# ’8€2.—$
+
+Œ9¬R3J%%¡:€46›&
+;0Ó5L&'"“<€6N§(Š=(Q7D¢)@>0”8P(*"”?€Ô8R©+
+ £@€9F£,Ÿ‘A€J:*-‹B”†;-
+‡C4Õ<T*,$•D”=.
+E0“>L&/"SF4U?Tª-$•G€‹@.0
+H ÈA 1 
+I4ATª0$•J€UBV+)
+K –CX¬2¥UL¸ÖDZ- /&VM EX¬2
+¥N WF\® 2™–O ‡G!2	GP€×H^¯!3'Q 
+I(")“ŠR$NJ8œ"4šNS ˜J`0#5 ¨WT¼ØKb±#5)˜U L $6 
+V€AMƒ$4 ƒ‚W(‘ND"%7€X ÙOd²%6§˜Y€P"&8	Z¬RQJ¥&8¡[¼˜Rb1'9)˜\ ØS`0":
+ ¨]€Sf3";*^€HT"‘"9‰_ U4š#<˜M`œÉV&“';Ša€
+W*(=‹b”FX(:cšYh4):d€ÑZF£)>Ÿ‘e 
+[(*>“Jf€Z\jµ*? +šg€„\‰*@
+‰Eh€×]^/"A'i ^l6+B¬j€U_V«+@
+kÀ›`n7,@-[l€ÑaF£,CŸ‘m$b8œ(D
+šn€Zcj5-C  +Zo œdp¸-E œp€Çe.D q€
+e*.?
+‹r Xf`°.F ¨Ws€œgr9/G.t İgtº/G
+œ\u€hv;0D
+v ^ix¼0H¯w€iz=1D0x€Äj‰1D‰…y 
+k(2I“Šz€Bl
+…2J…ƒ{€šljµ2K
+ +Z|ßm|>3I }(nD¢3L ~€_n~¿3I
+10 o€@4I²Ÿ€¼Øpb±4M
+)˜  pp¸4M
+œ‚ G q/N 	ƒ† r5M‚F„(Ñ sD¢0O …$!s8œ0Mš†€D!t‰5P‰E‡À›!un76Q-ˆ€Ì!u26R	‰ 
+"v(”6S
+“ŠŠZ"wh43T‹€ "w‚A7R
+3 Œ Ü"xp¸7Rœ[D!#y„B8K´ €D#z‰8U‰E€œ#zr¹8V. Û#{l69W¬‘¸$|Z­9X
+&’0`$|€À9X
+²“„$}:XE”€È$~"‘5Y
+	• %~d²:Z §X–¸V%Z-;[&—€%€z½6\0˜ İ%tº;O
+œ™”&;]
+Gš€D&‚	<]‰…›€„&ƒ‰<[‰œ Ë&ƒ,–<\•KÈ!'„†C=^
+5a_'…|¾=_^Ÿ€…'…>`†  â'†ˆÄ>a ¶a¡€"(‡ŠE?a7b¢Da(ˆ„Â?b´ £D¡(ˆ„Â?c´ ¤ È(‰ @b
+ˆ¥€)Šjµ@O +š¦Z)Šh´@d§0 )‹€@Ae²_¨ È)Œ <f
+©€*Œf3<g*ª€J**•AeK« ƒ*B`„¬ŒÃ*‡=f‡D­+ŒBf‚F® c+ŒFCh¸b¯Œ£+‘G?i9#°¼Ø+‘b±Cf)˜±€,’j5Dj +š² ^,“x¼Dk¯]³ ›,“l¶Dl¬š´ Ï,”<Em›Oµ(-•D¢En€¶€D-–	<o‰E·D¡-–„B<n´ ¸ Ê-—(”An“Š¹ .˜d2Fp§º G.˜Fq	‡» ¤.™ÈFnœ£¼€Ç.šGr ˆ½ /š Gs
+H¾€@/›Gj¿¼˜/œb1Ht)À¸Ö/Z­Hu&–Á¬0J%Iv¡’Â€D0‰Iw‰…Ã 0Ÿ<Ej›OÄ€Ì0Ÿ2™Ex	Å€1 2Jy	MÆ€@1¡JzAÇˆ1¡:J{È€ä1¢’IKi7¢É€2£F| ˆÊ€A2¤ƒK} ƒ‚Ë€Š2¤*G~Ì¸Ö2¥Z-L&VÍÀ3¦n·L
+-›Î€Z3¦jµL€ +Ï ˆ3§ Ml
+ˆĞ Ö3¨X¬Mu¥•Ñ 4¨X,Nl¥UÒ B4©„NpÓ€4ªOu ƒ‚Ô Ç4«Ol	GÕ$5«8œO
+šÖ d5¬HP‚œc× ‚5­„Pƒ Ø€×5­^¯Pv'—Ù€6®z=Qv
+0ÚP6¯@ Q„PÛ ‹6¯,–Q}•‹Ü Ö*°X,R~¥İœÉ6±&Mv
+JŞ 7²`°Mv ¨—ß€O7²>ŸM‚à œ7³p¸R…œ[á4Õ7´T*O†
+$â€8´V+S† 
+Œã B8µ„S‡Cä„8¶Tˆå Ù8¶d2T‰ §˜æ€9·ƒPŠ ƒç”F9¸T†è "¹ˆDUˆ ¶¡éˆ9¹:U‰êå9º”ÊU‹
+:$ëœ	:»&VŒŠì€O:»>VíÈ¡:¼†ÃM5¡îÄ:½ˆV
+…ï;½|¾Vğ€ˆ6¾"W‰ñ [;¿l¶W‘¬šò„;ÀX’…ó€×;À^/X“'ôD!<Á„ÂX”´`õ€Z<Âj5Y‹ +ö<Â@ Y‘÷Äå<Ã–ËY”»$øŒ=ÄB!Z•‘ù M=Ä4Z•˜Mú„=ÅˆZ”…û$Î=Æ8[–šü€>Çjµ[— +Zı f>Ç˜Ì[–<%ş€•>ÈV+\˜
+Lÿ(Ñ>ÉD¢\–€ 	?É&“\™
+½X?Êb1]š)–?ËX¬]›¥•İ?Ëv»]œ
+]@Ì^
+†f@Í˜Ì^˜<e¹–@ÎZ-_&Ø@Î`0_š ¨AÏh´_Ÿ™	QAĞF#`ŸQ
+„AĞ‰` ‰…ÊAÑ*•[¡K)BÒD"a¢ fBÒšMa˜œ%‹BÓ.—\£
+ŒÂBÔ
+…a¢… CÕ‚Ab¢3`gCÕœNb›7¢CÖ4šb¤˜MÜC×p8c¥œ›D×2c¦
+	XDØ`°c¡
+ ¨—ˆDÙ d§
+ˆÊDÙ*d¦K±'EÚÏ`¨=¦hEÛ Ğd¨ ¾¦›EÜl6e©¬šâ3ÜŠEeª7bİEİtºe©œFŞf«	GMFŞ4f¬˜Fßv»f­
+] ÍFà4g®˜!Gà†bª
+D"OGá>Ÿg #Gâ>h¡$ÊGã*•h¯%	Hã‚h°B&VHäX,i±
+¥'%Hå8œi¡š(1ÓHåL¦i¥"S)%Iæ”Jj²:¤*AIçƒj³
+ ƒ+œIçp¸j´œ›,ÀIèk´-
+Jé*•f¥ K.RJêH¤k® /—Jê^/l®'0ÄJëˆlµE1Kì m¶
+ˆ2EKìmµ3¹–KíZ­m·&4ÙKîf3n¯*Y5Lî4i®˜6Á[Lïn·n¸
+-›7‡Lğo¯ H8ÈLñ"‘o¹I9Mño¹	‡:OMò<pº
+›O;‰Mó:p»<•ÆMóq¼=½Nôb1l½)˜>GNõq½ H?)‘NõD¢q¾
+@@ŞNöx<r¿¯A•O÷rÀ GB½XOøb1nÁ)C„Oø	sÂ‰DÌOù2™sÃ	EPúv;tÄ
+FhPú¢QtÅ?§GŒPû0˜oÅ –LHËPü.pÅ
+I(Qü¢ÑtÅ?§JOQı>ŸpÆKM©Qş¤RuÂ
+À§LÅQÿ‹uÇMRÿh´uÈYNfR ™LvÉ<¥OˆR!vÂ
+ˆPÇRvÂ HQSsÊ‡DROS=w¿›OS	†Sw¿
+‚FTÊS+•wÊU±'TŸOxÉ=¦V½XTc±tÉ)WT{½xË
+0^XÍT5yË˜MYU5šyÌ˜Z­RUK¥yË¡’[„U		zÉ‰E\ÉU
+'“zÍJ]V
+m¶zÎ¬^•FV{Î
+_V?Ÿ{Ï`1àV@|Ï²_aWˆ|ĞEb^W{=}Ğ0c¹–W[­}Ñ&–d×W_¯}Ò
+'We½Xc1~Ò
+)˜fPXC¡~Óg¹–X[­~Æ &VhÀXÔiYS©Õ £”jk5€Ö +Zk_Y?€Ô1Ÿl¹–Y[­€Ô
+&–mÄYˆ{Ô…n&Z™Ì{Ô<%oiZ§Ó|Ö
+A(p±§ZŸO×
+=¦q±çZŸOØ=¦r½[c±Ñ
+)Xs½X[c1‚Ù)tÅ¥[—Ë‚Ú»$u5Õ[Uª‚Û$•v‰\;ƒÛwH\#‘ƒÍ‰xQª\©ÔƒÜÂ¨yÓ\O'„ÚŠSz]3™„İ
+	{¹V][-…Ş&|‡] …İ }Ò] I¤…İ ~^!Y,†Ü
+¥•Z^"kµ†ß +Z€‘^"G£†ÜŸQÄ^#‰à‰‚"_#‰ÄŞ ¶!ƒK_$-‡Ş•„È%!‡á
+H…Ÿ_%}¾‡á^†Éá_&‡Cˆâ5a‡ `&ƒAˆã3 ˆQ`'G£ˆäŸQ‰„`(‰á…ŠÙ`(g3‰å*‹&a)™L…æ
+<eŒCa)…â‡„	a*‚‰æB)Ña+E"Šç 	b+†ç‚†‰Nb,;Šè ‘¨b,¡P‹é ¾&’Úb-i´‹ç “c.G#ŒêŸ‘”cc.GŒë9£•ˆc/#‘Œì
+I–Ìc/3™Œê 	M—80=ê
+›˜±'d1ŸÏí=f™¹Vd1[­î&–šŠd2+ëK›ßd2}>íœ1 e3Àï²_)Q*4E"î 1Se4M&ğ"“Ÿ˜e5a°ñ ¨— ×e5_/Šì
+'¡1f6M¦Šò
+"“¢Cf7ó„£„f7	ì‰E¤Ñf8G£ô
+Ÿ‘¥g8g³ó*Y¦Hg9#‘ğI§j$:«Õ‘õ
+ £T¨Œg:3ö	©ég;§S’ì
+Ahª5h;U*’÷$•«Hh<#‘’ô ‰¬‹h=/“ø
+Œ­İh=w;“ö
+
+®¹i>[­“ù&¯GF>“÷ °­Ri?K%”ö
+¡R±±§i@ŸÏ”÷=&²İi@w»”ú
+³jAS)•ú £T´EjA•÷Fµ£jBÇñ9£¶ÛjCm¶•û¬Z·)kCE¢•ü€¸^kD{½‘ı0¹ŒkD3–ı
+	º	ÁkE‚–ñ
+B»
+lF+—ş‹¼]lFw»—ÿ 
+©½‰lG'“ 
+¾ÊlG+˜¿)mH§Ó˜
+AhÀImI'™
+ÁÉ¡mI‡Ã™5aÂÄmJ	š‰EÃnJ1šÿ–Ä¹VnK[­šù&VÅ)‘nLE"›ï ÆØnLa°› ¨WÇoMœ	‡È_oM}>œ^É„oNˆœ	…Ê­ÒoOK%¡ËÁpOo·–-Ì1TpPQ¨	"”Í£pPG—
+9#ÎãpQF¸bÏ¹qR[­&–Ğ)QqRE¢˜@Ñ¹–qS[-™&VÒ¹ÖqS[-™&ÓrTa0š ¨WÔdrU“IŸ7¢ÕˆrU#Ÿ‰ÖÖrVY¬›¥×M)sV¥Ò›	À§Ø	FsWœ	‚†ÙŠsX+•ŸÚ¹ÖsX[- &VÛ	tY'“ JÜ½XtYc1¡	)˜İštZi´	Şİt[u:œ\ßu[=¡›Oà_u\}¾áÉ¡u\‡C¢5!â˜]a°¢ ¨WãÂu^£…Cäv^a0£ ¨WåLv_3™£	æ£v_Ç£9#çMév`¥R¤À§è)waE¢¤	€é@wa€¤  ê«wb­V  ÃiëÀwb    ì	xc'¡ŠíÁ[xdo·-îE¡xd…B¥´ ïÁÛxeo·¥-›ğye{½¥0^ñŠof+¢	KòByg¦…ó›ygm6¦¬Zô¹Öyh[­¦&Võ5zhUª¦$•öHzi!§	
+H÷ƒzj†§øæzj›Í§œ%ù#{kF¨¸búK{k-¨•û˜{la°¨ ¨—ü!Ê{m)©“Šı¹|m[-©&VşC|n†© ÿ“|nO§©!Š è|o¡Pª"¾f–}pª#‡G}pª$	G¢}q‰D«# ¶!‚Ä}q	«#‰‚
+~r+•«$‚E~s¬$F‚~s	¬ÂÛ~to·¬-›	‚t{½¬!0^
+
+Au­%‚„v‰­&	‰…Ív5š­˜‚€w	®'‰G€w©!	GRª€x©Ô®(Âh‚Ä€y	¯)‰#RyGª*9£‚z3™¯+	MLz1˜¯,–Œ&z9œª-šNÈ{!°
+'‚{N°.	7"
+A‚|‚°‚‹‚|-–°.•É‚|%’°+‘	ƒ}}>±/^‚Zƒ}k5¬( +Z‚Šƒ~+•±0‹âƒ~‰Ä±1 ¶¡#„~Ç±(9c‚H„#²2‰ ‚Ÿ„?²11!ÂÛ„€o·²3-"
+…€Œ²&‚F#‚D…€‰²4‰…$„…³,E%‚Ü…s9³5.œ&6†‚Uª³5$U'V†‚Y,´5	¥(œ†‚q¸³5œ)×†ƒ]®´1™–*‚‡ƒg³´&*™+C‡„µ6‡D,œ‡„q8µ7œ›-2Ô‡„Q(µ8".‚ˆ…ƒµ5 ƒ‚/cˆ…Æµ9¸b0®’ˆ†K%¶8¡1CG†¶7‡D2Æåˆ†—K¶7»$3Ê!‰‡‡Ã¶35a4O‰‡=¶:›O5Š‰ˆ;·8O6‚Á‰ˆ·, ƒ7ºŠˆ[-·,&8²gŠ‰ŸÏ·;=¦9–Š‰Y,²<¥•:ËŠŠ-¸:•;'‹ŠN¸=7"<–F‹Š¸<‡="Š‹‹)”¸>“J>è‹‹£Ñ¸=?'?&ŒŒ9´<š@GŒŒ´9	GA‚œŒŒs9´,.\B‚ÇŒ¹? HCa°´? ¨—D‚d“Iµ;	7bE6•Uª¹@	$UFĞC!º*‘G‚ ƒÁº@3 H‚Zkµº0 +šI‚…»@†JĞC!»0K‚‘‰»*‰EL‚L‘3™»@		MÊ¡’‡C¼@5!NĞ’C!¼AOÊ!’‡Ã¼B5¡PB“	½CƒQ‚‹“/½C
+R‚Á”ƒ½D ƒ‚S‘”m¶½D¬šT‚J‘”+¸9KU‚‘•	¾@VºÖ‘•[­¸E&W$’–‘È¾Cœ£XÖ–Y¬¾9	¥•Y‚A’–¿9 ƒBZŠ’—;¿FO[–Æ’—¹9G\&“˜™LºG	<¥]‚D“˜	ºH‰…^®’“˜K%º;¡R_‚İ“™w;ÀE
+`‚”™3À?	a‚k”š¯×ÀG Djb‚ˆ”š#‘ÀF‰c‚ê”š«ÕÀ; £d	•›'ÁIŠeM•›5šÁF˜f„•œˆ¼I…gÂÛ•œo·¼J-›h‚
+–œ+¼KKi‚L–3ÂK	Mj2ZM¦ÂL"SkŸ–}>ÃMlÜ–q8ÃJœ[m‚—?ÃN1nX—Ÿa0¾E	 ¨—o’—ŸI$¾J ’p‚é— §S¿J
+Ahq˜ I$¿L ’r‚L˜ 3¿O	s˜˜¡a°ÃK ¨tŠÎ˜¡;ÃPOu‚
+™¢+ÄKKv‚i™¢§SÄK
+A(w‡™¢ÄQ	Gxç™£NÅQ7byºš£[-ÅR&z2Sš¤M¦ÅR"{N©š¤¥ÒÅNÀ§|Âš¤	„ÅQ}
+@¥‚ÁSB~›¥y¼ÁB¯R›¦I$ÆM ’€–†›¦ÆM	‚Ô›¦S)ÆQ £T‚œ§5šÂP˜ƒhœ§¡ĞÂP¾¦„–œ¨Y¬ÆR	¥•…ºÖœ¨[­ÆR&V†‚¨‰ÆM‰E‡h©¡PÇT¾&ˆ*‘©E"ÇU€‰‚âeª‹ÅÇV7¢Š&Îª9œÇWš‹ª‡ÇX‡„ŒD«ÈWE‡«ÈO	G
+Á¬‚ÄXÉ¬'“ÄT
+Ÿ¬‡ÄV	‡„‘‚_Ÿ­?ÅO1’«Ÿ­­ÖÈT Ã)“ÏŸ®=ÉV›”‚  ®ƒAÉY3 •‚i ®§SÉX
+A(–’ ®I$ÉZ R—*Ñ ®E"É[€˜¡®}>ÉX^™Ÿ?¯}¾ÉS^š‚K¡¯/—ÉS
+Œ›‚¤¡¯“ÉÉ\7¢œ‚Í¡°7Ê]F!¢°…BÊ]´ Êa¢°‡CÊX5¡ŸÂ›¢±o·Ê\-› ‚Ş¢±{=Ë\0^¡
+£±‚ÊZ¢‚Z£±k5Ë^ +£‚Œ£²3™Ë_	¤
+Á£²‚Ë^B¥‚¤²oØË]œ*¦‚k¤³¯WÌ_ Dj§^ˆ³y<Ì[¯]¨‚ˆ¤³#Ì`I©Â¤´	„Ì[ª¥´†Ça„«X¥´a0Íb ¨W¬6•¥´U*Íc$­Í¥µ5šÍ`˜®¦µ‡Í[‡¯²g¦µŸÏÍ[=¦°§¦¶ÎÄ^7"±‚Ê¦¶+Îc‹²§¶-Î^•‹³X§·a°Îd ¨´º–§·[­Îe&–µÏ§·=Î[	›¶‚¨·?ŸÎa·Fa¨¸…BÉ^´ ¸Œ¨¸1Ï[–L¹‚Ş¨¸{=Ïa0º‚©¹?ŸÏc»R©¹I¤Ïa ¼F¡©¹…ÂÏf´ ½Ë©º-Ğd•‹¾ªº†Ğg	„¿lªº±ÙĞbEiÀÂÛxºo7Êh	-›ÁÊ¡ª»‡CÑe5aÂ©»Ëe	‡Ãæª»™LÑe<¥Ä«¼ˆÑiÅ‚b«¼‹ÅÑi7¢Æãp¼GÒd9£Ç„«½Ì_EÈß«½}¾Òj^É‚
+¬½+•Òd‹Ê‚W¬½_¯Òk	'Ë«¬¾­ÖÌb Ã©Ì®Ò¬¾K¥Ìj¡Í‚­¾…Ì_…CÎ‚@­¿ÓlÏ‚„­¿	Óm‰ĞĞ­¿A ÓjÑ®À].În	™VÒ‚j®À«ÕÓl £”Ó‚«®À¯×Ók DªÔ‚ë®À¯×Ói DªÕ"
+¯Á)”Îo“
+ÖFa¯Á…BÔi´ ×„¯ÁˆÔoEØÇ¯ÂÕp	Ù(°Â¡PÕq	¾¦Ú‚D°Â	Õr‰…Û‡°ÃÕs	GÜ
+Á°ÃÖl‚İF!±Ã…BÖ_´`ŞºV±Ã[-Öt&–ßº–±Ä[­Ğo&à*Ñ±ÄE¢Ğl@á‚"²Ä‹ÅĞu7¢â]²Åu:Ñtœ\ã–†²ÅÑp‡ä
+Æ²ÅÑl‚Få‚³Æ‰Ög‰æ‚J³Æ+ÒgKç2”³ÆQ(Òo"èÇ³ÆÒp	é‚´Ç{½Òv0ê‚U´ÇW+×t
+ë‚Š´Ç+×p‹ì&Î´È9œ×wší‚µÈ¿Ìs1Ÿî‚EµÈØp†ï–†µÉØxğÇµÉØx	‡ñº¶É[­Øy&VòRj¶É©ÔØ_Â(ó¨¶Ê¡PÙz¾fô‚iZÊ§SÙp
+Ahõ²ç¶ÊŸOÙ{=¦ö·Ëe²Ôw§˜÷‚D·Ë‰Ô ‰ø’·ËI¤Ôp RùÏ·Ì=Ùu›úìÌ±ÙÙwEiû‚¸Ì#Õs	ü‚M¸Ì7›ÙpNıÊ¡¸Í‡ÃÕ{5!ş‚à¸ÍƒAÖz3 ÿÂ¹Ío·Õw	-› ƒD¹Î	Úz	‰…3“¹ÎM&Úy"“ƒä¹Î“IÚ 7"ƒºÏ‹Úy†ƒJºÏ+•ÚuKÏ‚Ú|	‚ƒºÏ?ÑnİºĞuºÖzœ\»Ğ!Ön
+	c»ĞÆÖ}¸b
+G¡»Ñ…BÛz´`Ö»ÑY,Û~¥Uƒ¼ÑÛ…C»V¼Ò[­×&–»–¼Ò[­×n&–ŸÉ¼Ò'“×q
+½Ò†×q¯R½ÓK¥Û¡R‚½Ó	ÜnƒƒÜ½Ós9Ü~.¾ÔI¤Ü RÂ»Ô	„Ü€ƒËa¾Ô‡ÃÜ 
+5¡³§¾ÕŸOİ =&ƒÂ¾Õİ}…ƒ¿ÕA ÔPk¿Õ­Vİ‚ Ã©ƒŸ¿Ö¿İ1_Gá¿Ö…Âİ ´ ƒÀÖG£İnŸ‘]À×u:ŞœG¡À×…BŞ€´  ãÀ×GŞ|9c!ÁØŞƒ	‡"ƒZÁØkµŞ  +#ÁØ‚ŞB$ Øm¶Ş‚¬š%çÁÙNß 7b&ÂÙßƒ…']ÂÙuºÚœœ(ƒ¦ÂÚ›Íßœ%)æÂÚ™Ìß <%*‹ÃÚ;à +cÃÛÆà|¸¢,³'±ÛŸOá =&-ÃÛ=à ›.+ÑÃÛE¢à„€/»ÄÜ[­á|&V0'NÄÜ9œá šN1Ÿ‰ÄÜ'“á|Š2ƒÜÄİs9Ü„.œ3Åİ}¾Û 4ƒKÅİ/—Û„
+Œ5ÅŞ5â ˜M6'ÎÅŞ9â 
+šN7ƒÆŞ	â ‰…8ƒUÆŞW+â 
+Œ9ƒ™Æßg³â *™:ÃÆß†â „;Çßa°â  ¨—<—FÇßâ 
+‡

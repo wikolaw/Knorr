@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>9053</QvBuildNo>
+   <CreatorDoc>C:\Users\Wiko\Documents\visual studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\1_Extract\Extract SalesData.qvw</CreatorDoc>
+   <CreateUtcTime>2012-02-19 18:38:24</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>tblProducts</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>pkeyProductID</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>78</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>390</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strProductName</FieldName>
+       <BitOffset>24</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>78</NoOfSymbols>
+       <Offset>390</Offset>
+       <Length>1449</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>fkeySupplierID</FieldName>
+       <BitOffset>8</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>29</NoOfSymbols>
+       <Offset>1839</Offset>
+       <Length>145</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>fkeyCategoryID</FieldName>
+       <BitOffset>49</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>1984</Offset>
+       <Length>40</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strQuantityPerUnit</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>71</NoOfSymbols>
+       <Offset>2024</Offset>
+       <Length>1167</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>curUnitPrice</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>MONEY</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>.</Thou>
+       </NumberFormat>
+       <NoOfSymbols>63</NoOfSymbols>
+       <Offset>3191</Offset>
+       <Length>443</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>intUnitsInStock</FieldName>
+       <BitOffset>39</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>51</NoOfSymbols>
+       <Offset>3634</Offset>
+       <Length>255</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>intUnitsOnOrder</FieldName>
+       <BitOffset>45</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>3889</Offset>
+       <Length>50</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>intReorderLevel</FieldName>
+       <BitOffset>52</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>3939</Offset>
+       <Length>35</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>ysnDiscontinued</FieldName>
+       <BitOffset>55</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>¬†</Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>3974</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>7</RecordByteSize>
+   <NoOfRecords>78</NoOfRecords>
+   <Offset>3984</Offset>
+   <Length>546</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCategories</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCustomers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblDragListBox</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblEmployees</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrdLineDetail</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrderDetails</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrders</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblProducts</Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+                         	   
+                                                                      !   "   #   $   %   &   '   (   )   *   +   ,   -   .   /   0   1   2   3   4   5   6   7   8   9   :   ;   <   =   >   ?   @   A   B   C   D   E   F   G   H   I   J   K   L   M   N   Chai Chang Aniseed Syrup Chef Anton's Cajun Seasoning Chef Anton's Gumbo Mix Grandma's Boysenberry Spread Uncle Bob's Organic Dried Pears Northwoods Cranberry Sauce Mishi Kobe Niku Ikura Queso Cabrales Queso Manchego La Pastora Konbu Tofu Genen Shouyu Pavlova Alice Mutton Carnarvon Tigers Teatime Chocolate Biscuits Sir Rodney's Marmalade Sir Rodney's Scones Gustaf's Kn√§ckebr√∂d Tunnbr√∂d Guaran√° Fant√°stica NuNuCa Nu√ü-Nougat-Creme Gumb√§r Gummib√§rchen Schoggi Schokolade R√∂ssle Sauerkraut Th√ºringer Rostbratwurst Nord-Ost Matjeshering Gorgonzola Telino Mascarpone Fabioli Geitost Sasquatch Ale Steeleye Stout Inlagd Sill Gravad lax C√¥te de Blaye Chartreuse verte Boston Crab Meat Jack's New England Clam Chowder Singaporean Hokkien Fried Mee Ipoh Coffee Gula Malacca R√∏gede sild Spegesild Zaanse koeken Chocolade Maxilaku Valkoinen suklaa Manjimup Dried Apples Filo Mix Perth Pasties Tourti√®re P√¢t√© chinois Gnocchi di nonna Alice Ravioli Angelo Escargots de Bourgogne Raclette Courdavault Camembert Pierrot Sirop d'√©rable Tarte au sucre Vegie-spread Wimmers gute Semmelkn√∂del Louisiana Fiery Hot Pepper Sauce Louisiana Hot Spiced Okra Laughing Lumberjack Lager Scottish Longbreads Gudbrandsdalsost Outback Lager Fl√∏temysost Mozzarella di Giovanni R√∂d Kaviar Longlife Tofu Rh√∂nbr√§u Klosterbier Lakkalik√∂√∂ri Original Frankfurter gr√ºne So√üe Fosters                         	   
+                                                                                    10 boxes x 20 bags 24 - 12 oz bottles 12 - 550 ml bottles 48 - 6 oz jars 36 boxes 12 - 8 oz jars 12 - 1 lb pkgs. 12 - 12 oz jars 18 - 500 g pkgs. 12 - 200 ml jars 1 kg pkg. 10 - 500 g pkgs. 2 kg box 40 - 100 g pkgs. 24 - 250 ml bottles 32 - 500 g boxes 20 - 1 kg tins 16 kg pkg. 10 boxes x 12 pieces 30 gift boxes 24 pkgs. x 4 pieces 24 - 500 g pkgs. 12 - 250 g pkgs. 12 - 355 ml cans 20 - 450 g glasses 100 - 250 g bags 100 - 100 g pieces 25 - 825 g cans 50 bags x 30 sausgs. 10 - 200 g glasses 12 - 100 g pkgs 24 - 200 g pkgs. 500 g 24 - 250 g  jars 12 - 500 g pkgs. 12 - 75 cl bottles 750 cc per bottle 24 - 4 oz tins 12 - 12 oz cans 32 - 1 kg pkgs. 16 - 500 g tins 20 - 2 kg bags 1k pkg. 4 - 450 g glasses 10 - 4 oz boxes 10 pkgs. 24 - 50 g pkgs. 12 - 100 g bars 50 - 300 g pkgs. 16 - 2 kg boxes 48 pieces 16 pies 24 boxes x 2 pies 24 - 250 g pkgs. 24 pieces 5 kg pkg. 15 - 300 g rounds 24 - 500 ml bottles 48 pies 15 - 625 g jars 20 bags x 4 pieces 32 - 8 oz bottles 24 - 8 oz jars 10 boxes x 8 pieces 10 kg pkg. 24 - 355 ml bottles 24 - 150 g jars 24 - 0.5 l bottles 500 ml 12 boxes    12       
+      öôôôôY5@      (   a         &           @7@      /@33333s1@'        @O@ffffff"@Q   	         @   {ÆG·:?@33333ÛE@ÕÃÃÃÃÃF@√ı(\èÚ^@§p=
+◊„9@      )@          @        xp@ffffff2@ÕÃÃÃÃL#@.   33333s3@      #@        Ä)@        @0@5      ffffff@@ÕÃÃÃÃÃ@        Ä3@     Ä*@7   "        Ä<@fffff¶H@     †@@ÕÃÃÃÃ5@   $           Ä5@ffffffA@      @      '         5       x                  V      #   *      (      h   =      L   1      
+   	   p   o      E   {   U         _   $   A   &      s   >   O      q      4      e   }   9           (   F      2   
+   <   P   d      
+                          ˇˇˇˇ        Å  AÉ"¢Öá"¶			â(
+
+
+
+e:ã*Hç$ B¶(íL,î(L
+	ñ		
+†
+ò
+<
+,
+<õ§¶XBjü,   j!!ÅP" "
+P##!h$$"é% %£ P& &§@'!'%8("(¶))ßÆ*#*®†+$+)R,%,™PX-&-+(.%.¨,/'/-C0(0.Ã\1)1/<2*20
+3+3±4,42¶5-536.6¥f775≥>8/8µn9096h:1:∑*;2;8*<3<π=4=∫ ,>>;B?5?<Â>@6@Ω
+"A7A>cBBÅ CCø£\D8D¿ZE9EA£0F:Fã*G;G*H9H¬HII76EJ<JCK Kƒ`L=LERM>MF,

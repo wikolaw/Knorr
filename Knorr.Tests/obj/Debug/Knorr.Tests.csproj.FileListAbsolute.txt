@@ -1,0 +1,10 @@
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\bin\Debug\Knorr.Tests.dll
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\bin\Debug\Knorr.Tests.pdb
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\bin\Debug\Knorr.Core.dll
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\bin\Debug\Knorr.Core.pdb
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\obj\Debug\Knorr.Tests.dll
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\obj\Debug\Knorr.Tests.pdb
+C:\Users\Wiko\documents\visual studio 2010\Projects\ConsoleApplication1\Knorr.Tests\bin\Debug\TestFiles\Data Sources\FrmSampl.mdb

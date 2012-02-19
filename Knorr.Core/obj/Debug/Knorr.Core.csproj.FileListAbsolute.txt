@@ -1,0 +1,7 @@
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Core\bin\Debug\Knorr.Core.dll
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Core\bin\Debug\Knorr.Core.pdb
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Core\obj\Debug\Knorr.Core.dll
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Core\obj\Debug\Knorr.Core.pdb
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Core\obj\Debug\Interop.QlikView.dll
+C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Core\obj\Debug\Knorr.Core.csproj.ResolveComReference.cache

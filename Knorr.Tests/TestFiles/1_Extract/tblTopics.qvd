@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>9053</QvBuildNo>
+   <CreatorDoc>C:\Users\Wiko\Documents\visual studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\1_Extract\Extract SalesData.qvw</CreatorDoc>
+   <CreateUtcTime>2012-02-19 18:38:24</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>tblTopics</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>pkeyQNumber</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>330</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strArticleTitle</FieldName>
+       <BitOffset>5</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>27</NoOfSymbols>
+       <Offset>330</Offset>
+       <Length>1356</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strTopic</FieldName>
+       <BitOffset>10</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>1686</Offset>
+       <Length>1419</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>memDescription</FieldName>
+       <BitOffset>16</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>3105</Offset>
+       <Length>6864</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strSampleCategory</FieldName>
+       <BitOffset>37</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>9969</Offset>
+       <Length>101</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>hrefURL</FieldName>
+       <BitOffset>21</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>26</NoOfSymbols>
+       <Offset>10070</Offset>
+       <Length>3016</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strObjectName</FieldName>
+       <BitOffset>26</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>13086</Offset>
+       <Length>514</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>intObjectType</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>INTEGER</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec>,</Dec>
+         <Thou>Â </Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>13600</Offset>
+       <Length>5</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>strObjectsUsed</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>13605</Offset>
+       <Length>2035</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>5</RecordByteSize>
+   <NoOfRecords>30</NoOfRecords>
+   <Offset>15640</Offset>
+   <Length>150</Length>
+   <Lineage>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCategories</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblCustomers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblDragListBox</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblEmployees</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrdLineDetail</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrderDetails</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblOrders</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblProducts</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblShippers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblSuppliers</Statement>
+     </LineageInfo>
+     <LineageInfo>
+       <Discriminator>Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source=C:\Users\Wiko\Documents\Visual Studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\Data Sources\FrmSampl.mdb;Mode=Share Deny None;Extended Properties=&quot;&quot;;Jet OLEDB:System database=&quot;&quot;;Jet OLEDB:Registry Path=&quot;&quot;;Jet OLEDB:Database Password=&quot;&quot;;Jet OLEDB:Engine Type=5;Jet OLEDB:Database Locking Mode=1;Jet OLEDB:Global Partial Bulk Ops=2;Jet OLEDB:Global Bulk Transactions=1;Jet OLEDB:New Database Password=&quot;&quot;;Jet OLEDB:Create System Database=False;Jet OLEDB:Encrypt Database=False;Jet OLEDB:Don't Copy Locale on Compact=False;Jet OLEDB:Compact Without Replica Repair=False;Jet OLEDB:SFP=False</Discriminator>
+       <Statement>SQL SELECT *
+FROM tblTopics</Statement>
+     </LineageInfo>
+   </Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ ï 198639 º/ 208826 f0 208998 1 209170 3 209689 ß3 209887 64 209974 [4 210011 Œ4 210060 Ý4 210141 5 210190 <5 210236 H5 210248 y5 210297 –5 210326 ž5 210334 ¤5 210340 ?6 210495 ¨6 210600 ; 233275 šc 287642 †k 289670 æó 324582 èó 324584 íó 324589 qö 325233 x xx xxx xxxx VBA Procedure to Determine Current Page of Tab Control How to Disable PAGE UP and PAGE DOWN Keys in a Form How to Bring a Subtotal from a Subform to a Main Form Starting Another Application from a Text Box on a Form How to Set Focus to a Subform Control Using GoToControl Example Using a Callback Procedure with Balloons How to Create Command Bars by Using Visual Basic Code How to Move from Subform to Main Form by Using TAB or ENTER Using Code to Dynamically Synchronize Two Forms How to Get the Right and Down Measurements of a Form How to Determine If a Form Is Maximized or Minimized Fill Record with Data from Prev. Record Automatically How to Open Multiple Instances of a Form How to Detect User Idle Time or Inactivity How to Create an AfterUndo Form Event How to Automatically Detect If a Form Is Being Edited How to Display Line Numbers on Subform Records How to Use Dsum to Create a Running Sum on a Form How to Use a Toggle Button to Hide and Display a Subform How to Create a Stopwatch Form How to Simulate Drag-And-Drop Capabilities How to Synchronize Two Combo Boxes on a Form How to Use the Tab Control with Linked Subforms How to Limit Number of Characters to Size of Text Box Using Lightweight Objects in Microsoft Access How to Hide the Combo Box Drop-Down Arrow on a Form There is no article for this example Using Code to Determine Selected Page of Tab Control How to Disable PAGE UP and PAGE DOWN Keys How to Bring a Subtotal from a Subform to a Main Form How to Start Another Application from a Text Box How to Set Focus to a Subform Using the GoToControl Action How to Use the Callback Property of a Balloon How to Manipulate CommandBar Items How to Move from Subform to Main Form Using TAB or ENTER How to Dynamically Synchronize Two Forms Using Code How to Get the Right and Down Measurements of a Form How to Determine If a Form Is Maximized or Minimized How to Fill Current Record with Data from Previous Record Automatically How to Open Multiple Instances of a Form How to Detect User Idle Time or Inactivity How to Create an AfterUndo Form Event How to Automatically Detect If a Form Is Being Edited How to Display Line Numbers on SubForm Records How to Create a Running Sum How to Use a Toggle Button to Hide and Display a Subform How to Create a Stopwatch Form How to Simulate Drag-And-Drop Capabilities How to Synchronize Two Combo Boxes on a Form Using the Tab Control to View Several Subforms How to Limit the Number of Characters Permitted to the Size of a Text Box Using a Lightweight Form That Contains Hyperlinks How to Hide the Combo Box Drop-Down Arrow How to Export an Object as HTML How to Create an Undo Record Button How to Create an Unbound Form Using an ADO RecordSource This example demonstrates how to use the OnChange event and the Value property in Visual Basic for Applications code to determine which page of a tab control is selected. This sample form shows how you can disable the PAGE UP and PAGE DOWN keys in a form using the new KeyPreview property of a form. This form demonstrates how to correctly reference a subtotal control on a subform from a main form. This example shows how to run Microsoft Word and open a Microsoft Word document by typing the paths to the executable and document in separate text boxes. To go to a control on a subform, you first have to go to the subform control. You can then go to a control in the subform. You can use the SetFocus method to accomplish this. A balloon is the area in which the Microsoft Office Assistant displays headings and text, similar to those in a message box. In addition to headings and text, a balloon may contain other types of controls such as check boxes, buttons, and labels which are similar to option buttons. To determine which label or button a user clicked, or which check boxes a user selected in a balloon, you must create a callback procedure and set the balloon's Callback property to the name of that procedure. A Callback procedure is a procedure that runs whenever a modeless balloon is displayed. Toolbars, shortcut menus, and menu bars are combined into a single CommandBars collection that you can control programmatically by using Visual Basic for Applications. You can modify any Microsoft Access built-in menu bar or toolbar, and you can create and modify custom toolbars, menu bars and shortcut menus. This example demonstrates how you can press the TAB key or ENTER key to move from the last control on the last record of a subform to a specified control on the main form. This example shows how to synchronize Form2 to the current record on the subform of Form1 using bookmarks in Visual Basic for Applications. Scroll through records on Form1 to see Form2 synchronized automatically with the subform on Form1. This example uses a custom function called GetFormDimensions() to obtain a form window's right and down measurements for use in the OnClick event of either of the two command buttons. The sample function is used to position a form immediately below or to the right of a form. This form shows you how to create custom form properties that determine if a form window is maximized or minimized using Windows application programming interface (API) functions. When you are creating new records using a form, you may want to speed the data entry process by having fields in the new record fill automatically with values from the previous record. This form demonstrates a sample function called AutoFillNewRecord() that enables you to fill selected fields (or all fields) in a new record with values from the previous record automatically. This form shows how you can open multiple instances of a form using code. Opening multiple instances of a form gives you the flexibility to work on more than one record at once. For example, in an Order Entry application, you can start taking an order, pause and take a second order, and then return to the first order, without losing any data. This example shows how to create a procedure that will run if no user activity is detected for a specified period of time. This example shows how to create and use a form module procedure called AfterUndo.  You can click Undo Record on the Edit menu or press the ESC key twice to undo changes to the current record in a form, but there is no built-in form event that is triggered.  The AfterUndo procedure simulates an AfterUndo event so that you can restore calculations that may have been set while the record was being edited. This example shows one  technique you can use to automatically run code when a form's edit mode changes. You can use this technique when you want to have different controls available on a form when a record is being edited from those available when a record is not being edited. This example describes how to create and use a sample user-defined function to display the current line or row number in a subform. You can easily create a running sum in a report using the RunningSum property.  However, because a form doesn't have this property, this example shows how to sum the value of all records previous to the one you are on. This example shows how a toggle button can be used to show or hide a subform. It includes the Macro approach and the Visual Basic for Applications code approach. This example shows how to create and use a form that contains Start/Stop and Reset commmand buttons that use the form's Timer event to display elapsed hours, minutes, and seconds in a text box control. Two examples are included here that demonstrate the use of a custom DragDrop function you can create that will run in response to a control being dragged to another control. The first example demonstrates how to drag the value in a control on one form to a control on a second form. The second example demonstrates how to move items from one list box to a second list box using a drag-and-drop procedure. If you perform a drag-and-drop procedure with the CTRL key held down, all items from one list will be moved to the second list. This example shows how to synchronize two combo boxes so that making a selection in the first combo box limits the list of available items in the second combo box. This example demonstrates how to create a form with three linked subforms. This example shows how to limit the amount of text typed into a text box so that the width of the text does not exceed the width of the text box. Microsoft Access supports lightweight forms and reports, which are objects that do not contain a class module. One advantage of lightweight objects is that they are smaller, and they typically load and are displayed faster than objects with class modules. Another advantage is that they help decrease the size of your database because they do not require storage space for a class module. This form demonstrates a method you can use to hide the drop-down arrow on a combo box until the combo box is selected. This example exports the Customers form as HTML and then creates a hyperlink that opens the HTML file. This sample form has an Undo Record button that was created with the Command  Button Wizard.  To see the code generated by the wizard, look at the code on the OnClick event of the button. Because an Access form bound to an ADO RecordSource is Read-Only, this example uses the form as a presentation layer. The ADO code creates the Recordset on the OnLoad event and command buttons move the user through the records. This example demonstrates binding the form's control to an ADO RecordSource. The form's Open event has the code for both a Jet database and for an ADP. Form Controls User Interface Data Manipulation Other Form Uses Form Navigation Undo Operations #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q198/6/39.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q208/8/26.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q208/9/98.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q209/1/70.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q209/6/89.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q209/8/87.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q209/9/74.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/0/11.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/0/60.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/1/41.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/1/90.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/2/36.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/2/48.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/2/97.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/3/26.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/3/34.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/3/40.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/4/95.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q210/6/00.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=http://support.microsoft.com:80/support/kb/articles/Q233/2/75.asp&NoWebContent=1# #http://support.microsoft.com/default.aspx?scid=kb;EN-US;287642# #http://support.microsoft.com/default.aspx?scid=kb;EN-US;289670# #http://support.microsoft.com/default.aspx?scid=kb;EN-US;324582# #http://support.microsoft.com/default.aspx?scid=kb;EN-US;324584# #http://support.microsoft.com/default.aspx?scid=kb;EN-US;324589# #http://support.microsoft.com/default.aspx?scid=kb;EN-US;325233# frmEmployeesTabCode frmDisablePgUp/PgDwn frmSubTotal frmRunApp frmGoToSubFrmCtrl frmBalloonCallBack frmCommandBar frmMovetoMainForm frmSyncForm1 frmGetRD1 frmMaximizedMinimized frmAutoFillNewRecords frmMultipleInstance frmDetectIdleTime frmAfterUndoEvent frmDetectEditChange frmLineNumber frmRunningSum frmToggleSubForm frmStopWatch frmDragDropExamples frmSyncComboBoxes frmTabExample frmLimitChrTextbox frmLightWeight frmHideCombo frmExportHTML frmUnDo frmUnbound frmADORecordSource    Tables: tblEmployees
+Form: frmEmployeesTabCode Table: tblShippers; Form: frmDisablePgUp/PgDwn Tables: tblOrderDetails, tblProducts; Query: qryOrderDetailsExtended; 
+Forms: frmSubTotal, subSubTotal Form: frmRunApp; Event procedures: Form OnLoad and cmdRunApp OnClick Tables: tblOrderDetails, Products; Query: qryOrderDetailsExtended
+Forms: frmGoToSubFrmCtrl, subGoToSubFrmCtrl; Event procedure: onClick for cmdGoToQuantity. Form: frmBalloonCallBack
+Modules: basBalloon Form: frmCommandBar
+Module: basCommandBar Tables: tblOrderDetails, Products; Query: qryOrderDetailsExtended;
+Forms: frmMovetoMainForm, subMovetoMainForm Tables: tblCategories, Products; Forms: frmSyncForm1, frmSyncForm2, subfrmSync Forms: frmGetRD1, frmGetRD2; Module: basGetRD Table: tblCustomers; Form: frmMaximizedMinimized; Module: basUtilities Table: tblCustomers; Form: frmAutoFillNewRecords; Module: basAutoFillNewRecords Table: tblCustomers; Form: frmMultipleInstance; Module: basUtilities Form: frmDetectIdleTime Table: tblEmployees; Forms: frmAfterUndoEvent Table: tblEmployee; Form: frmDetectEditChange Tables: tblProducts, tblOrdLineDetail; Query: qryOrderLineNumbers;
+Forms: frmLineNumber, subfrmLineNumber; Module: basLineNmbr Table: tblOrders; Forms: frmRunningSum Tables: tblOrders, tblCustomers; Queries: qryQuarterlyOrders, qxtbQuarterly OrdersByProduct;
+Forms: frmToggleSubForm, subToggleSubForm Form: frmStopWatch Tables: tblEmployees, tblOrders, tblDragListBox; Forms: frmDragDropExamples, frmDragSource, frmDropDest, frmDragDropListBoxes; Module: basDragDrop Tables: tblProducts, tblCategories; Query: qrySyncComboBoxes; 
+Form: frmSyncComboBoxes Tables: tblOrders, tblOrderDetails, tblEmployees, tblCustomers
+Forms: frmTabExample, subEmployees, subCustomers, subOrdersDetails Form: frmLimitChrTextbox; Module: basUtilities Form: frmLightWeight Form: frmHideCombo Form: frmExportHTML Table: tblCustomers; Forms: frmUnDo Table: tblEmployees; Forms: frmUnbound Table: tblCustomers; Forms: frmADORecordSource   @  !a!B‚Bc£c„Ä„¥å%Æfç'‡!H!ˆ)%i%)J)Š)*k-«-KŒ1Ì1l­5í5mÎ9:®ï=/>OBPB1FqFQRJ’JsN³Ns”RÔRtµVõVÖZ[÷^7_cXc9gyg9Zkhz[ol»\spœ]wt]

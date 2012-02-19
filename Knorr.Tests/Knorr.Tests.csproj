@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ADB806E5-4F5D-4C84-9081-6BAF8D50536D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Knorr.Tests</RootNamespace>
+    <AssemblyName>Knorr.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.5.10.11092\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Given_Script_from.cs" />
+    <Compile Include="Given_QlikViewObjectFactory.cs" />
+    <Compile Include="Given_ExtractSalesData.cs" />
+    <Compile Include="Given_Script_store.cs" />
+    <Compile Include="mocked_qlikview.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Knorr.Core\Knorr.Core.csproj">
+      <Project>{6DAE6F4D-EE50-47FE-8C71-63DBDAC4B0DB}</Project>
+      <Name>Knorr.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="TestFiles\1_Extract\Extract SalesData.qvw" />
+    <None Include="TestFiles\1_Extract\tblCategories.qvd" />
+    <None Include="TestFiles\1_Extract\tblCustomers.qvd" />
+    <None Include="TestFiles\1_Extract\tblDragListBox.qvd" />
+    <None Include="TestFiles\1_Extract\tblEmployees.qvd" />
+    <None Include="TestFiles\1_Extract\tblOrderDetails.qvd" />
+    <None Include="TestFiles\1_Extract\tblOrders.qvd" />
+    <None Include="TestFiles\1_Extract\tblOrdLineDetail.qvd" />
+    <None Include="TestFiles\1_Extract\tblProducts.qvd" />
+    <None Include="TestFiles\1_Extract\tblShippers.qvd" />
+    <None Include="TestFiles\1_Extract\tblSuppliers.qvd" />
+    <None Include="TestFiles\1_Extract\tblTopics.qvd" />
+    <None Include="TestFiles\1_Extract\tblType.qvd" />
+    <None Include="TestFiles\2_Transform\Order.qvd" />
+    <None Include="TestFiles\2_Transform\Ordln.qvd" />
+    <None Include="TestFiles\2_Transform\Prod.qvd" />
+    <None Include="TestFiles\2_Transform\Supp.qvd" />
+    <None Include="TestFiles\2_Transform\Test.qvw" />
+    <None Include="TestFiles\2_Transform\Transform SalesData.qvw" />
+    <None Include="TestFiles\3_Publish\Order Analysis.qvw" />
+    <None Include="TestFiles\3_Publish\Warehouse Analysis.qvw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFiles\Data Sources\FrmSampl.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
