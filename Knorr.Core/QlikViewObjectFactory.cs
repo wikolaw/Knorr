@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace Knorr.Core
             var files = startRoot.GetFiles("*.qvw", SearchOption.AllDirectories);
             return files.Select(file => new QlikViewFile
                                             {
+                                                Id = Guid.NewGuid().ToString(),
                                                 Script = ScriptFactory.Create(file),
                                                 FileInfo = file
                                             }).ToList();

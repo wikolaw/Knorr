@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,12 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileDb\FileDB.cs" />
+    <Compile Include="FileDb\IModel.cs" />
+    <Compile Include="FileDb\IRepository.cs" />
+    <Compile Include="FileDb\JsonSerializer.cs" />
+    <Compile Include="NodeFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QlikViewApp.cs" />
     <Compile Include="QlikViewObjectFactory.cs" />
     <Compile Include="QlikViewFile.cs" />
     <Compile Include="Script.cs" />
     <Compile Include="ScriptFactory.cs" />
+    <Compile Include="ViewModels\Edge.cs" />
+    <Compile Include="ViewModels\Node.cs" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="QlikView">

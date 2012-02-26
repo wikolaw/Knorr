@@ -1,5 +1,7 @@
 ﻿using System;
 using Knorr.Core;
+using Knorr.Core.FileDb;
+using Knorr.Core.ViewModels;
 
 
 namespace ConsoleApplication1
@@ -8,25 +10,44 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            var clickViewObjects = QlikViewObjectFactory.Create(@"C:\Users\Wiko\Documents\visual studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\");
+            var qlikViewFiles = QlikViewObjectFactory.Create(@"C:\Users\Wiko\Documents\visual studio 2010\Projects\ConsoleApplication1\Knorr.Tests\TestFiles\");
+            var db = new FileDB<QlikViewFile>(@"C:\Temp\");
+            var dbNodes = new FileDB<Node>(@"C:\Temp\");
+            var dbEdges = new FileDB<Edge>(@"C:\Temp\");
 
-            foreach (var clickViewObject in clickViewObjects)
+            db.DeleteAll();
+            dbNodes.DeleteAll();
+            dbEdges.DeleteAll();
+
+            var nodes = NodeFactory.CreateNodes(qlikViewFiles);
+            foreach (var node in nodes)
+                dbNodes.Create(node);
+
+            var edges = NodeFactory.CreateEdges(qlikViewFiles);
+            foreach (var edge in edges)
+                dbEdges.Create(edge);
+            
+           
+            foreach (var qlikViewFile in qlikViewFiles)
+                db.Create(qlikViewFile);
+            
+
+            var qlikviewObjects = db.Read();
+
+            foreach (var qlikviewObject in qlikviewObjects)
             {
-                Console.WriteLine(@"FILE:" + clickViewObject.FileInfo.Name);
-                foreach (var source in clickViewObject.Script.Sources)
+                Console.WriteLine("Filename " + qlikviewObject.FileInfo.FullName);
+                foreach (var source in qlikviewObject.Script.Sources)
                 {
-                    Console.WriteLine("  SOURCE:" + source);
-                    
+                    Console.WriteLine("  Source " + source);
                 }
 
-                foreach (var target in clickViewObject.Script.Targets)
+                foreach (var target in qlikviewObject.Script.Targets)
                 {
-                    Console.WriteLine("  TARGET:" + target);
-
+                    Console.WriteLine("  Target " + target);
                 }
-
             }
-          
+
             Console.Read();   
        }
 
